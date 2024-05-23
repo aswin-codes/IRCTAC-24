@@ -9,11 +9,11 @@ const Home = () => {
                 <div className='flex flex-row  items-center justify-between px-4'>
                     <div className='flex gap-2 items-center'>
                         <img className='w-6 h-6 sm:w-8 sm:h-8' src={Cal} alt='calendar' />
-                        <p className='text-sm sm:text-lg font-semibold'>14 & 15th November 2024</p>
+                        <p className='text-xs sm:text-lg font-semibold'>14 & 15th November 2024</p>
                     </div>
-                    <div className='flex gap-2 items-center mt-4 sm:mt-0'>
+                    <div className='flex gap-2 items-center  sm:mt-0'>
                         <img className='w-6 h-6 sm:w-8 sm:h-8' src={Clo} alt='clock' />
-                        <p className='text-sm sm:text-lg font-semibold'>8:00 AM</p>
+                        <p className='text-xs sm:text-lg font-semibold'>8:00 AM</p>
                     </div>
                 </div>
                 <div className='mt-4 mx-auto sm:px-4'>
