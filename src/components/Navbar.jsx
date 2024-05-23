@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <div className={`fixed w-full z-10 ${isOpen && 'h-full lg:h-auto'} `}>
             <div className='flex  px-10 py-5 items-center justify-between w-full'>
-                <div><h1 className='font-lilita text-2xl text-purple-800'>IRCTAC'24</h1></div>
+                <div><h1 className='font-lilita text-2xl text-purple-800 cursor-pointer' onClick={() => handleMenuClick('home')}>ICRTAC'24</h1></div>
                 <div className='lg:flex gap-4 text-md items-center hidden '>
                     <p onClick={() => handleMenuClick('home')} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'home' && 'text-purple-800 font-bold'}`}>Home</p>
                     <p onClick={() => handleMenuClick('patrons')} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'patrons' && 'text-purple-800 font-bold'}`}>Patrons</p>
