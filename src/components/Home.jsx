@@ -6,17 +6,17 @@ const Home = () => {
     return (
         <div className='px-6 sm:px-10 lg:px-20 pt-10 sm:pt-20 flex flex-wrap gap-5 min-h-screen'>
             <div className='flex-1 flex-col flex justify-center min-w-full sm:min-w-[450px]'>
-                <div className='flex flex-col sm:flex-row items-center justify-between px-4'>
+                <div className='flex flex-row  items-center justify-between px-4'>
                     <div className='flex gap-2 items-center'>
                         <img className='w-6 h-6 sm:w-8 sm:h-8' src={Cal} alt='calendar' />
-                        <p className='text-base sm:text-lg font-semibold'>14 & 15th November 2024</p>
+                        <p className='text-sm sm:text-lg font-semibold'>14 & 15th November 2024</p>
                     </div>
                     <div className='flex gap-2 items-center mt-4 sm:mt-0'>
                         <img className='w-6 h-6 sm:w-8 sm:h-8' src={Clo} alt='clock' />
-                        <p className='text-base sm:text-lg font-semibold'>8:00 AM</p>
+                        <p className='text-sm sm:text-lg font-semibold'>8:00 AM</p>
                     </div>
                 </div>
-                <div className='mt-4 mx-auto px-4'>
+                <div className='mt-4 mx-auto sm:px-4'>
                     <p className='text-lg sm:text-2xl text-center text-purple-800 font-semibold'>
                         7TH INTERNATIONAL CONFERENCE ON RECENT TRENDS IN ADVANCED COMPUTING (ICRTAC)
                     </p>
