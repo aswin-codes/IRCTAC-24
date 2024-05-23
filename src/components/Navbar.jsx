@@ -38,7 +38,7 @@ const Navbar = () => {
                     }
                 </div>
             </div >
-            <div onClick={() => setIsOpen(false)} className={`${isOpen ? 'max-h-screen' : 'max-h-0'} h-screen lg:h-0 backdrop-blur-md backdrop-opacity-50 ease-in-out duration-300 overflow-hidden`}>
+            <div onClick={() => setIsOpen(false)} className={`${isOpen ? 'max-h-screen' : 'max-h-0'} h-screen lg:h-0 backdrop-blur-sm    ease-in-out duration-300 bg-transparent overflow-hidden`}>
                 <div className="flex flex-col px-10 py-5 gap-4 text-xl h-full text-black">
                     <p onClick={() => handleMenuClick('home')} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'home' && 'text-purple-800 font-bold'}`}>Home</p>
                     <p onClick={() => handleMenuClick('patrons')} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'patrons' && 'text-purple-800 font-bold'}`}>Patrons</p>
