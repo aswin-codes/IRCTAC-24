@@ -45,41 +45,43 @@ const Patrons = () => {
         });
     }, []);
     return (
-        <div ref={patronsRef} className="flex justify-center items-center px-16 py-20 bg-purple-50 max-md:px-5">
-            <div className="flex flex-col items-center mt-14 max-w-full w-[1070px] max-md:mt-10">
-                <div className="text-3xl font-bold text-center text-purple-800">
-                    Chief Patron
-                </div>
-                <div className="relative mt-16 animated max-md:mt-10 transition-transform transform hover:scale-105 overflow-hidden">
-                    <img
-                        loading="lazy"
-                        src={patronsData[0].image}
-                        className="max-w-full aspect-[0.85] w-[249px] max-h-[400px] max-md:max-h-[300px] object-cover"
-                        alt={patronsData[0].name}
-                    />
-                </div>
-                <div className="mt-3.5 text-xl font-bold text-center text-black">
-                    {patronsData[0].name}
-                </div>
-                <div className="mt-3 text-lg text-center text-black">{patronsData[0].title}</div>
-                <div className="mt-28 text-3xl font-bold text-center text-purple-800 max-md:mt-10">
-                    Patrons
-                </div>
-                <div className="grid grid-cols-3 gap-5 mt-10 max-md:grid-cols-1">
-                    {patronsData.slice(1).map((patron) => (
-                        <div key={patron.id} className="flex animated flex-col items-center text-center text-black">
-                            <div className="relative transition-transform transform hover:scale-105 overflow-hidden">
-                                <img
-                                    loading="lazy"
-                                    src={patron.image}
-                                    className="w-full aspect-[0.85] max-h-[400px] max-md:max-h-[300px] object-cover"
-                                    alt={patron.name}
-                                />
+        <div className='bg-purple-100'>
+            <div ref={patronsRef} className="flex justify-center items-center px-16 py-0  max-md:px-5 w-full max-w-[1440px] mx-auto">
+                <div className="flex flex-col items-center mt-14 max-w-full w-[1070px] max-md:mt-10">
+                    <div className="text-3xl font-bold text-center text-purple-800">
+                        Chief Patron
+                    </div>
+                    <div className="relative mt-16 animated max-md:mt-10 transition-transform transform hover:scale-105 overflow-hidden">
+                        <img
+                            loading="lazy"
+                            src={patronsData[0].image}
+                            className="max-w-full aspect-[0.85] w-[249px] max-h-[400px] max-md:max-h-[300px] object-cover"
+                            alt={patronsData[0].name}
+                        />
+                    </div>
+                    <div className="mt-3.5 text-xl font-bold text-center text-black">
+                        {patronsData[0].name}
+                    </div>
+                    <div className="mt-3 text-lg text-center text-black">{patronsData[0].title}</div>
+                    <div className="mt-28 text-3xl font-bold text-center text-purple-800 max-md:mt-10">
+                        Patrons
+                    </div>
+                    <div className="grid grid-cols-3 gap-5 mt-10 max-md:grid-cols-1">
+                        {patronsData.slice(1).map((patron) => (
+                            <div key={patron.id} className="flex animated flex-col items-center text-center text-black">
+                                <div className="relative transition-transform transform hover:scale-105 overflow-hidden">
+                                    <img
+                                        loading="lazy"
+                                        src={patron.image}
+                                        className="w-full aspect-[0.85] max-h-[400px] max-md:max-h-[300px] object-cover"
+                                        alt={patron.name}
+                                    />
+                                </div>
+                                <div className="mt-3.5 text-xl font-bold">{patron.name}</div>
+                                <div className="mt-3 text-lg">{patron.title}</div>
                             </div>
-                            <div className="mt-3.5 text-xl font-bold">{patron.name}</div>
-                            <div className="mt-3 text-lg">{patron.title}</div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
