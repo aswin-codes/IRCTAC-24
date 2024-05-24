@@ -24,7 +24,7 @@ const About = () => {
     }, []);
 
     return (
-        <div className='px-5 sm:px-5 lg:px-10 py-5 sm:py-10 flex flex-col lg:flex-row gap-5'>
+        <div className='px-5 sm:px-5 lg:px-10 py-5 sm:py-10 flex flex-col lg:flex-row gap-5 w-full max-w-[1440px] mx-auto'>
             <div className='flex-1'>
                 <div className='p-1 about-content'>
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>About the Conference</h1>

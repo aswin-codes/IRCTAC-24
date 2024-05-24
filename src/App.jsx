@@ -4,18 +4,20 @@ import Home from './components/Home';
 import Info from './components/Info';
 import About from './components/About';
 import Footer from './components/Footer';
+import Patrons from './components/Patrons';
 
 function App() {
     return (
         <div className='w-screen font-sora bg-purple-50'>
-            <div className='w-full max-w-[1440px] mx-auto font-sora bg-purple-50'>
+            <div className=' font-sora '>
                 <Navbar />
                 <Home />
                 <Info/>
                 <About/>
-               
+                <Patrons/>
+                <Footer/>
             </div>
-            <Footer/>
+           
         </div>
     );
 }

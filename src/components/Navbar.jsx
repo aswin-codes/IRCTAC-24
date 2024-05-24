@@ -14,7 +14,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className={`sticky top-0 w-full max-w-[1440px] z-10 ${isOpen && 'h-full lg:h-auto'} `}>
+        <div className={`sticky top-0 w-full max-w-[1440px] z-10 ${isOpen && 'h-full lg:h-auto'}  mx-auto `}>
             <div className='flex backdrop-blur-sm bg-transparent px-10 py-5 items-center justify-between w-full'>
                 <div>
                     <h1 className='font-lilita text-2xl text-purple-800 cursor-pointer' onClick={() => handleMenuClick('home')}>ICRTAC'24</h1>

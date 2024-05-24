@@ -16,7 +16,7 @@ const Info = () => {
   }, []);
 
   return (
-    <div className='px-5 sm:px-8 lg:px-20 py-5 sm:py-10'>
+    <div className='px-5 sm:px-8 lg:px-20 py-5 sm:py-10 w-full max-w-[1440px] mx-auto'>
       <h1 className='text-xl sm:text-3xl font-semibold text-purple-800 info-title'>Instructions & Info</h1>
       <div className='mt-16 grid grid-cols-1 md:grid-cols-2 gap-10'>
         <div className='flex flex-col items-center text-center info-item'>
