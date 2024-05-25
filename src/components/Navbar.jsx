@@ -10,7 +10,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['home', 'patrons', 'submission', 'speakers', 'committee', 'travel', 'contact'];
+            const sections = ['home', 'patrons', 'submission', 'speakers', 'committee', 'travel', 'contact','register'];
             let currentSection = '';
 
             sections.forEach((section) => {
@@ -83,7 +83,7 @@ const Navbar = () => {
                     )}
                 </div>
             </div>
-            <div className={`${isOpen ? 'max-h-screen' : 'max-h-0'} h-screen lg:h-0 backdrop-blur-sm ease-in-out duration-300 bg-transparent overflow-hidden`}>
+            <div onClick={()=>setIsOpen(false)} className={`${isOpen ? 'max-h-screen' : 'max-h-0'} h-screen lg:h-0 backdrop-blur-sm ease-in-out duration-300 bg-transparent overflow-hidden`}>
                 <div className="flex flex-col px-10 py-5 gap-4 text-xl h-full text-black">
                     <a href='#home' onClick={(e) => handleMenuClick('home', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'home' && 'text-purple-800 font-bold'}`}>Home</a>
                     <a href="#patrons" onClick={(e) => handleMenuClick('patrons', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'patrons' && 'text-purple-800 font-bold'}`}>Patrons</a>
