@@ -29,8 +29,8 @@ const ContactUs = () => {
                     <p>Vellore Institute of Technology, Vandalur - Kelambakkam Road <br />
                         Chennai, Tamil Nadu - 600 127</p>
                 </div>
-                <div className='mt-10'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.040704989774!2d80.15085337460194!3d12.840646217736793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259af8e491f67%3A0x944b42131b757d2d!2sVellore%20Institute%20of%20Technology%20-%20Chennai!5e0!3m2!1sen!2sin!4v1716655342150!5m2!1sen!2sin" width="400" height="300" className="border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div className='mt-10  sm:ml-20 sm:mr-0 '>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.040704989774!2d80.15085337460194!3d12.840646217736793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259af8e491f67%3A0x944b42131b757d2d!2sVellore%20Institute%20of%20Technology%20-%20Chennai!5e0!3m2!1sen!2sin!4v1716655342150!5m2!1sen!2sin"  className="border-0 w-full h-96 max-w-96" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>

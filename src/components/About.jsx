@@ -95,7 +95,8 @@ const About = () => {
                         <li><p>Registration Close : <span className='font-bold'>5th November 2024</span></p></li>
                         <li><p>Conference : <span className='font-bold'>14th-15th November 2024</span></p></li>
                     </ul> */}
-                    <table>
+                    <div className='overflow-auto'>
+                    <table className='text-sm min-w-full'>
                         <tbody>
                             <tr className='border-y-4 border-transparent'>
                             <td><p className='text-right font-bold w-56'>3rd June 2024 : </p></td>
@@ -124,6 +125,7 @@ const About = () => {
                             </tr>
                         </tbody>
                     </table>
+                    </div>
                 </div>
                 <div className='p-1 mt-10 brochure-content'>
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Brochure</h1>
