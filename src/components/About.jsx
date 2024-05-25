@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div className='p-1 mt-10 tracks-content'>
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Tracks</h1>
-                    <p className='text-base'>The seventh edition of ICRTAC - 2023 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
+                    <p className='text-base'>The seventh edition of ICRTAC - 2024 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
                     <hr className='h-[2px] bg-purple-700' />
                     <ol className='list-decimal list-inside mt-3'>
                         <li>Quantum Computing in Science, Engineering and Management</li>
@@ -88,19 +88,19 @@ const About = () => {
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Important Dates</h1>
                     <hr className='h-[2px] bg-purple-700' />
                     <ul className='mt-3'>
-                        <li><p>Call for papers : <span className='font-bold'>3 June 2024</span></p></li>
-                        <li><p>Paper submission deadline : <span className='font-bold'>1 September 2024</span></p></li>
-                        <li><p>Acceptance notification : <span className='font-bold'>31 September 2024</span></p></li>
-                        <li><p>Camera Ready Copy submission : <span className='font-bold'>15 October 2024</span></p></li>
-                        <li><p>Registration Close : <span className='font-bold'>5 November 2024</span></p></li>
-                        <li><p>Conference : <span className='font-bold'>14-15 November 2024</span></p></li>
+                        <li><p>Call for papers : <span className='font-bold'>3rd June 2024</span></p></li>
+                        <li><p>Paper submission deadline : <span className='font-bold'>1st September 2024</span></p></li>
+                        <li><p>Acceptance notification : <span className='font-bold'>31st September 2024</span></p></li>
+                        <li><p>Camera Ready Copy submission : <span className='font-bold'>15th October 2024</span></p></li>
+                        <li><p>Registration Close : <span className='font-bold'>5th November 2024</span></p></li>
+                        <li><p>Conference : <span className='font-bold'>14th-15th November 2024</span></p></li>
                     </ul>
                 </div>
                 <div className='p-1 mt-10 brochure-content'>
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Brochure</h1>
                     <hr className='h-[2px] bg-purple-700' />
                     <div className='flex justify-center'>
-                        <button className='px-10 py-3 text-xl rounded-md my-3 bg-purple-800 border border-purple-800 font-semibold text-white hover:bg-purple-50 hover:text-purple-800 duration-200 transition-all ease-in-out'>Download Now</button>
+                        <button className='px-10 py-3 text-xl rounded-md my-3 bg-purple-800 border border-purple-800 font-semibold text-white hover:bg-purple-50 hover:text-purple-800 duration-200 transition-all ease-in-out'>( Coming soon )</button>
                     </div>
                 </div>
             </div>

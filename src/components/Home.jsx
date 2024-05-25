@@ -31,12 +31,12 @@ const Home = () => {
 
     return (
         <div className=''>
-            <div className='px-6 sm:px-10 lg:px-20 py-10 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto'>
+            <div className='px-6 sm:px-10 lg:px-20 py-10 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto mb-16'>
                 <div className='flex-1 flex-col flex justify-center min-w-full sm:min-w-[450px] mt-10'>
                     <div className='flex flex-row items-center justify-between px-4'>
                         <div className='flex gap-2 items-center calendar'>
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Cal} alt='calendar' />
-                            <p className='text-xs sm:text-lg font-semibold'>14 & 15th November 2024</p>
+                            <p className='text-xs sm:text-lg font-semibold'>14th & 15th November 2024</p>
                         </div>
                         <div className='flex gap-2 items-center clock'>
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Clo} alt='clock' />
@@ -45,7 +45,7 @@ const Home = () => {
                     </div>
                     <div className='mt-4 mx-auto sm:px-4 title'>
                         <p className='text-lg sm:text-2xl text-center text-purple-800 font-semibold'>
-                            7TH INTERNATIONAL CONFERENCE ON RECENT TRENDS IN ADVANCED COMPUTING (ICRTAC)
+                            7th INTERNATIONAL CONFERENCE ON RECENT TRENDS IN ADVANCED COMPUTING (ICRTAC)
                         </p>
                     </div>
                     <div className='mt-8 sm:mt-16 subtitle'>
@@ -64,10 +64,10 @@ const Home = () => {
                         <p className='text-mred mt-1'>
                             Faculty of Computer Science and Information Universiti Putra Malaysia<span className='text-black'>,</span>
                         </p>
-                        <p className='text-mblue mt-1'>
+                        {/* <p className='text-mblue mt-1'>
                             Bureau of Indian Standards<span className='text-black'> & </span>
                         </p>
-                        <p className='text-morange mt-1'>UiPath</p>
+                        <p className='text-morange mt-1'>UiPath</p> */}
                     </div>
                 </div>
                 <div className="flex-1 flex-col flex justify-center min-w-full sm:min-w-96 sm:mt-0 mt-10">
@@ -78,10 +78,10 @@ const Home = () => {
                         <img src={VITL} alt='VIT Logo' className='object-contain h-10 sm:h-16' />
                         <img src={BIS} alt='BIS Logo' className='object-contain h-10 sm:h-16' />
                     </div>
-                    <div className='flex justify-around px-10 mt-3 items-center logos-row-2'>
+                    {/* <div className='flex justify-around px-10 mt-3 items-center logos-row-2'>
                         <img src={UPM} alt='UPM Logo' className='object-contain h-10 sm:h-16' />
                         <img src={UI} alt='UIpath Logo' className='object-contain h-10 sm:h-16' />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

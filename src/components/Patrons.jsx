@@ -25,9 +25,9 @@ const patronsData = [
     { id: 8, name: "Dr. Thyagarajan T", title: "Pro-Vice Chancellor, VIT", image: I8 },
     { id: 9, name: "Dr. P.K.Manoharan", title: "Additional Registrar, VIT", image: I9 },
     { id: 10, name: "Dr. S.P. Thyagarajan", title: "Distinguished Professor & Advisor to Chancellor, VIT", image: I10 },
-    { id: 11, name: "Dr. Vaidehi Vijayakumar", title: "Professor of Eminence, VIT", image: I11 },
-    { id: 12, name: "Dr. Kalyani A", title: "Advisor, VIT", image: I12 },
-    { id: 13, name: "Mr. Natesan Subramanian", title: "Advisor, VIT", image: I13 },
+    // { id: 11, name: "Dr. Vaidehi Vijayakumar", title: "Professor of Eminence, VIT", image: I11 },
+    // { id: 12, name: "Dr. Kalyani A", title: "Advisor, VIT", image: I12 },
+    // { id: 13, name: "Mr. Natesan Subramanian", title: "Advisor, VIT", image: I13 },
 ];
 
 const Patrons = () => {
