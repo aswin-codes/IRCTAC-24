@@ -48,7 +48,7 @@ const Patrons = () => {
         <section className='bg-purple-100' id='patrons'>
             <div ref={patronsRef} className="flex justify-center items-center px-16 py-20  max-md:px-5 w-full max-w-[1440px] mx-auto">
                 <div className="flex flex-col items-center  max-w-full w-[1070px] max-md:mt-10">
-                    <div className="text-3xl font-bold text-center text-purple-800">
+                    <div     className="text-3xl font-bold text-center text-purple-800">
                         Chief Patron
                     </div>
                     <div className="relative mt-16 animated max-md:mt-10 transition-transform transform hover:scale-105 overflow-hidden">
