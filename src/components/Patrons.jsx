@@ -45,7 +45,7 @@ const Patrons = () => {
         });
     }, []);
     return (
-        <div className='bg-purple-100'>
+        <section className='bg-purple-100' id='patrons'>
             <div ref={patronsRef} className="flex justify-center items-center px-16 py-20  max-md:px-5 w-full max-w-[1440px] mx-auto">
                 <div className="flex flex-col items-center  max-w-full w-[1070px] max-md:mt-10">
                     <div className="text-3xl font-bold text-center text-purple-800">
@@ -55,7 +55,7 @@ const Patrons = () => {
                         <img
                             loading="lazy"
                             src={patronsData[0].image}
-                            className="max-w-full aspect-[0.85] w-[249px] max-h-[400px] max-md:max-h-[300px] object-cover"
+                            className="max-w-full aspect-[0.85] w-[249px] max-h-[400px] max-md:max-h-[300px] object-cover transition-transform transform hover:scale-105 overflow-hidden"
                             alt={patronsData[0].name}
                         />
                     </div>
@@ -69,11 +69,11 @@ const Patrons = () => {
                     <div className="grid grid-cols-3 gap-5 mt-10 max-md:grid-cols-1">
                         {patronsData.slice(1).map((patron) => (
                             <div key={patron.id} className="flex animated flex-col items-center text-center text-black">
-                                <div className="relative transition-transform transform hover:scale-105 overflow-hidden">
+                                <div className="relative t overflow-hidden">
                                     <img
                                         loading="lazy"
                                         src={patron.image}
-                                        className="w-full aspect-[0.85] max-h-[400px] max-md:max-h-[300px] object-cover"
+                                        className="w-full aspect-[0.85] max-h-[400px] max-md:max-h-[300px] object-cover transition-transform transform hover:scale-105 overflow-hidden"
                                         alt={patron.name}
                                     />
                                 </div>
@@ -84,7 +84,7 @@ const Patrons = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

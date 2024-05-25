@@ -1,20 +1,52 @@
-import React, { useState } from 'react';
+import React, { useState, useRef,useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentTab } from '../redux/features/currentTab';
 
 const Navbar = () => {
     const currentTab = useSelector(e => e.currentTab.currentTab);
     const dispatch = useDispatch();
-
     const [isOpen, setIsOpen] = useState(false); // for menu
+    const navbarRef = useRef(null);
 
+
+    useEffect(() => {
+        const handleScroll = () => {
+            console.log('hi')
+          const sections = ['home', 'patrons', 'submission', 'speakers', 'committee', 'travel', 'contact'];
+          let currentSection = '';
+      
+          sections.forEach((section) => {
+            const sectionElement = document.getElementById(section);
+            if (sectionElement) {
+              const rect = sectionElement.getBoundingClientRect();
+              if (rect.top <= 10 && rect.bottom >= 10) {
+                currentSection = section;
+              }
+            }
+          });
+      
+          if (currentSection !== '') {
+            dispatch(setCurrentTab(currentSection));
+          }
+        };
+      
+        window.addEventListener('scroll', handleScroll);
+      
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, [dispatch]);
+      
     const handleMenuClick = (tab) => {
+        // Scroll to the section corresponding to the clicked tab
+        document.getElementById(tab)?.scrollIntoView({ behavior: 'smooth' });
+
+        // Update the currentTab redux variable
         dispatch(setCurrentTab(tab));
         setIsOpen(false);
     }
-
     return (
-        <div className={`sticky top-0 w-full max-w-[1440px] z-10 ${isOpen && 'h-full lg:h-auto'}  mx-auto `}>
+        <div ref={navbarRef} className={`sticky top-0 w-full max-w-[1440px] z-10 ${isOpen && 'h-full lg:h-auto'}  mx-auto `}>
             <div className='flex backdrop-blur-sm bg-transparent px-10 py-5 items-center justify-between w-full'>
                 <div>
                     <h1 className='font-lilita text-2xl text-purple-800 cursor-pointer' onClick={() => handleMenuClick('home')}>ICRTAC'24</h1>

@@ -11,9 +11,11 @@ function App() {
         <div className='w-screen font-sora bg-purple-50'>
             <div className=' font-sora '>
                 <Navbar />
+                <section id='home'>
                 <Home />
                 <Info/>
                 <About/>
+                </section>
                 <Patrons/>
                 <Footer/>
             </div>
