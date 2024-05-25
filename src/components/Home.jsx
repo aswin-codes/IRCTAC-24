@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
                     <div className='mt-4 font-semibold text-base sm:text-xl w-5/6 mx-auto text-center logos'>
                         <p className='text-purple-800'>
-                            School of Computer Science and Engineering, VIT Chennai
+                            School of Computer Science and Engineering, Vellore Institute of Technology, Chennai
                         </p>
                         <p className='text-center mt-1'>With</p>
                         <p className='text-mred mt-1'>
