@@ -79,7 +79,7 @@ const About = () => {
                     <p className='mt-3'>
                         Springer is a global publishing company that publishes books, e-books and peer-reviewed journals in science, technical and medical (STM) publishing founded in May 10, 1842 with headquarters in Berlin, Heidelberg, Germany. The Springer CCIS series is devoted to the publication of proceedings of computer science conferences. The Springer CCIS series is devoted to the publication of proceedings of computer science conferences. Besides globally relevant meetings with internationally representative program committees guaranteeing a strict peer-reviewing and paper selection process, conferences run by societies or of high regional or national relevance are also considered for publication.
                     </p>
-                    <div className='mt-3 flex justify-around items-center'>
+                    <div className='mt-3 flex lg:flex-row flex-col justify-around items-center my-2 gap-4'>
                         <img src={Springer} alt='Springer Publications' className='object-contain h-10 sm:h-16' />
                         <img src={VITLogo} alt='VIT University' className='object-contain h-10 sm:h-16' />
                     </div>
