@@ -6,7 +6,7 @@ const Submission = () => {
             class="flex justify-center items-center px-16 py-20  bg-purple-100 max-md:px-5"
         >
             <div
-                class="flex flex-col  w-full max-w-[1233px] max-md:mt-10 max-md:max-w-full"
+                class="flex flex-col  w-full max-w-[1440px] max-md:mt-10 max-md:max-w-full"
             >
                 <div
                     class="flex gap-5 justify-between self-end max-w-full text-center w-[1106px] max-md:flex-wrap"
@@ -33,13 +33,13 @@ const Submission = () => {
                 <div
                     class="self-start mt-32 ml-2.5 text-3xl text-center font-bold text-purple-800 max-md:mt-10 max-md:max-w-full"
                 >
-                    ICRTAC-2023 Conference Paper Submission Guidelines
+                    ICRTAC-2024 Conference Paper Submission Guidelines
                 </div>
                 <div class="mt-10 text-2xl  font-bold text-purple-800 max-md:max-w-full">
                     Submission Requirements
                 </div>
                 <div class="mt-4 text-lg text-black max-md:max-w-full">
-                    All submitted papers must be original and exclusive to ICRTAC-2023.
+                    All submitted papers must be original and exclusive to ICRTAC-2024.
                     Simultaneous submissions to other journals or conferences are strictly
                     prohibited. To maintain the integrity of the conference, we expect all
                     papers to be based on unpublished original work. By submitting a paper, at

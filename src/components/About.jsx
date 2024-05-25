@@ -87,14 +87,43 @@ const About = () => {
                 <div className='p-1 mt-10 dates-content'>
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Important Dates</h1>
                     <hr className='h-[2px] bg-purple-700' />
-                    <ul className='mt-3'>
+                    {/* <ul className='mt-3'>
                         <li><p>Call for papers : <span className='font-bold'>3rd June 2024</span></p></li>
                         <li><p>Paper submission deadline : <span className='font-bold'>1st September 2024</span></p></li>
                         <li><p>Acceptance notification : <span className='font-bold'>31st September 2024</span></p></li>
                         <li><p>Camera Ready Copy submission : <span className='font-bold'>15th October 2024</span></p></li>
                         <li><p>Registration Close : <span className='font-bold'>5th November 2024</span></p></li>
                         <li><p>Conference : <span className='font-bold'>14th-15th November 2024</span></p></li>
-                    </ul>
+                    </ul> */}
+                    <table>
+                        <tbody>
+                            <tr className='border-y-4 border-transparent'>
+                            <td><p className='text-right font-bold w-56'>3rd June 2024 : </p></td>
+                                <td><p className='text-left'>Call for papers </p></td>
+                                
+                            </tr>
+                            <tr className='border-y-4 border-transparent'>
+                                <td><p className='text-right font-bold w-56'>1st September 2024 : </p></td>
+                                <td><p className='text-left'>Paper submission deadline </p></td>
+                            </tr>
+                            <tr className='border-y-4 border-transparent'>
+                                <td><p className='text-right font-bold w-56'>31st September 2024 : </p></td>
+                                <td><p className='text-left'>Acceptance notification</p></td>
+                            </tr>
+                            <tr className='border-y-4 border-transparent'>
+                                <td><p className='text-right font-bold w-56'>15th October 2024 : </p></td>
+                                <td><p className='text-left'>Camera Ready Copy submission</p></td>
+                            </tr>
+                            <tr className='border-y-4 border-transparent'>
+                                <td><p className='text-right font-bold w-56'>5th November 2024 : </p></td>
+                                <td><p className='text-left'>Registration Close</p></td>
+                            </tr>
+                            <tr className='border-y-4 border-transparent'>
+                                <td><p className='text-right font-bold w-56'>14th-15th November 2024 :</p></td>
+                                <td><p className='text-left'>Conference</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div className='p-1 mt-10 brochure-content'>
                     <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Brochure</h1>

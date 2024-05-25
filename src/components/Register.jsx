@@ -14,7 +14,7 @@ const RegistrationFeeTable = () => {
 
     return (
         <section id='register'>
-            <div className="max-w-4xl mx-auto py-20 px-4">
+            <div className="max-w-[1440px] mx-auto py-20 px-4">
                 <h2 className="reveal text-3xl font-bold text-center text-purple-800 mb-8">Registration Fee</h2>
                 <div className="overflow-x-auto">
                     <table className="reveal min-w-full bg-white border border-gray-200">
