@@ -62,7 +62,8 @@ const Home = () => {
                         </p>
                         <p className='text-center mt-1'>With</p>
                         <p className='text-mred mt-1'>
-                            Faculty of Computer Science and Information Universiti Putra Malaysia<span className='text-black'>,</span>
+                            Faculty of Computer Science and Information Universiti Putra Malaysia, Malaysia
+                            {/* <span className='text-black'>,</span> */}
                         </p>
                         {/* <p className='text-mblue mt-1'>
                             Bureau of Indian Standards<span className='text-black'> & </span>
@@ -76,7 +77,7 @@ const Home = () => {
                     </div>
                     <div className='flex justify-around px-10 mt-10 items-center logos-row-1'>
                         <img src={VITL} alt='VIT Logo' className='object-contain h-10 sm:h-16' />
-                        <img src={BIS} alt='BIS Logo' className='object-contain h-10 sm:h-16' />
+                        <img src={UPM} alt='BIS Logo' className='object-contain h-10 sm:h-16' />
                     </div>
                     {/* <div className='flex justify-around px-10 mt-3 items-center logos-row-2'>
                         <img src={UPM} alt='UPM Logo' className='object-contain h-10 sm:h-16' />

@@ -25,16 +25,16 @@ const Info = () => {
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Online Presentation Track Details</h1>
-          <p>Day 1 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Comming soon)</a></span></p>
-          <p>Day 2 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Comming soon)</a></span></p>
+          <p>Day 1 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
+          <p>Day 2 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>ICRTAC-2024 Conference Schedule</h1>
-          <p>For complete schedule details: <span className='underline cursor-pointer'><a href='#'>(Comming soon)</a></span></p>
+          <p>For complete schedule details: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Offline Presentation Track Details</h1>
-          <p>For Date, Time and Venue details: <span className='underline cursor-pointer'><a href='#'>(Comming soon)</a></span></p>
+          <p>For Date, Time and Venue details: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
         </div>
       </div>
     </div>
