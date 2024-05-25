@@ -17,7 +17,7 @@ const Navbar = () => {
                 const sectionElement = document.getElementById(section);
                 if (sectionElement) {
                     const rect = sectionElement.getBoundingClientRect();
-                    if (rect.top <= navbarRef.current.offsetHeight && rect.bottom >= 10) {
+                    if (rect.top <= navbarRef.current.offsetHeight) {
                         currentSection = section;
                     }
                 }

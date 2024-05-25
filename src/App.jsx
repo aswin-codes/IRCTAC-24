@@ -5,6 +5,7 @@ import Info from './components/Info';
 import About from './components/About';
 import Footer from './components/Footer';
 import Patrons from './components/Patrons';
+import RegistrationFeeTable from './components/Register';
 
 function App() {
     return (
@@ -12,14 +13,15 @@ function App() {
             <div className=' font-sora '>
                 <Navbar />
                 <section id='home'>
-                <Home />
-                <Info/>
-                <About/>
+                    <Home />
+                    <Info />
+                    <About />
                 </section>
-                <Patrons/>
-                <Footer/>
+                <Patrons />
+                <RegistrationFeeTable/>
+                <Footer />
             </div>
-           
+
         </div>
     );
 }
