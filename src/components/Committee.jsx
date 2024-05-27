@@ -14,7 +14,7 @@ const DoubleTickIcon = () => (
 const convertToNormalWords = (str) => {
     // Use regular expression to replace camelCase with normal words
     const words = str.replace(/(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])/g, ' ');
-    
+
     // Capitalize the first letter of each word
     return words.replace(/\b\w/g, (char) => char.toUpperCase());
 };
@@ -31,20 +31,70 @@ const Committee = () => {
             <div className="flex flex-col w-full max-w-[1440px] max-md:mt-10 max-md:max-w-full">
                 <h1 className="text-xl sm:text-2xl text-purple-800 font-bold">Committee</h1>
                 <div className="flex my-10 flex-wrap gap-5 justify-center">
-                    {Object.keys(data).map((committee, index) => (
-                        <button
-                            key={index}
-                            onClick={() => handleChangeCommittee(committee)}
-                            className={`${selectedCommittee === committee
-                                ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
-                                : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
-                                } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
-                        >
-                            {convertToNormalWords(committee)}
-                        </button>
-                    ))}
+
+                    <button
+
+                        onClick={() => handleChangeCommittee('general')}
+                        className={`${selectedCommittee === 'general'
+                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
+                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
+                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                    >
+                        General Committee
+                    </button>
+                    <button
+
+                        onClick={() => handleChangeCommittee('conference')}
+                        className={`${selectedCommittee === 'conference'
+                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
+                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
+                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                    >
+                        Conference Committee
+                    </button>
+                    <button
+
+                        onClick={() => handleChangeCommittee('program')}
+                        className={`${selectedCommittee === 'program'
+                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
+                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
+                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                    >
+                        Program Committee
+                    </button>
+                    <button
+
+                        onClick={() => handleChangeCommittee('organizing')}
+                        className={`${selectedCommittee === 'organizing'
+                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
+                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
+                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                    >
+                        Organizing Committee
+                    </button>
+                    <button
+
+                        onClick={() => handleChangeCommittee('international')}
+                        className={`${selectedCommittee === 'international'
+                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
+                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
+                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                    >
+                        International Committee
+                    </button>
+                    <button
+
+                        onClick={() => handleChangeCommittee('national')}
+                        className={`${selectedCommittee === 'national'
+                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
+                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
+                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                    >
+                        National Committee
+                    </button>
+
                 </div>
-                <div className={`${data[selectedCommittee] ? 'h-auto' : 'h-48'} flex flex-col w-fit mx-auto justify-start items-start`}>
+                <div className={`${data[selectedCommittee] ? 'max-h-auto' : 'max-h-48'} transition-all duration-200 ease-in-out  flex flex-col w-fit mx-auto justify-start items-start`}>
                     {data[selectedCommittee] ? (
                         Object.entries(data[selectedCommittee]).map(([category, members], index) => (
                             <div key={index}>

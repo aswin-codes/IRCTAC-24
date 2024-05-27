@@ -79,10 +79,10 @@ const Home = () => {
                         <img src={VITL} alt='VIT Logo' className='object-contain h-10 sm:h-16' />
                         <img src={UPM} alt='BIS Logo' className='object-contain h-10 sm:h-16' />
                     </div>
-                    {/* <div className='flex justify-around px-10 mt-3 items-center logos-row-2'>
-                        <img src={UPM} alt='UPM Logo' className='object-contain h-10 sm:h-16' />
+                    <div className='flex justify-around px-10 mt-3 items-center logos-row-2'>
+                        <img src={BIS} alt='UPM Logo' className='object-contain h-10 sm:h-16' />
                         <img src={UI} alt='UIpath Logo' className='object-contain h-10 sm:h-16' />
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>
