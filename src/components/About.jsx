@@ -39,7 +39,7 @@ const About = () => {
                     <ul className='list-disc list-inside mt-3'>
                         <li>Explore the potential applications of advanced techniques in computing to provide innovative solutions</li>
                         <li>Provide an interdisciplinary platform for researchers, practitioners, and educators to discuss contemporary innovations in advanced computing and suggest sustainable solutions to real world problems</li>
-                        <li>Investigate novel methods in automation and intelligent techniques, integrating cutting-edge computing technologies with the use of Robotic Process Automation</li>
+                        <li>Investigate novel methods in automation and intelligent techniques, integrating cutting-edge computing technologies with the use of Intelligent Process Automation</li>
                         <li>Bridge SDG goals and Indian Standards with recent trends in advanced computing, emphasizing the importance of automating sustainability for global development</li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@ const About = () => {
                     <ol className='list-decimal list-inside mt-3'>
                         <li>Quantum Computing in Science, Engineering and Management</li>
                         <li>Artificial Intelligence and Machine Learning</li>
-                        <li>Automation in Sustainable Development with Robotics Process Automation</li>
+                        <li>Automation in Sustainable Development with Intelligent Process Automation</li>
                         <li>BIS standards for SDG Goals and Applications</li>
                         <li>Fog and Edge Computing</li>
                         <li>Image and Video processing</li>
