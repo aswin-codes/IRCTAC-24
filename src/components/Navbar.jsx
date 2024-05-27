@@ -66,7 +66,7 @@ const Navbar = () => {
                     <a href="#speakers" onClick={(e) => handleMenuClick('speakers', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'speakers' && 'text-purple-800 font-bold'}`}>Keynote Speakers</a>
                     <a href="#committee" onClick={(e) => handleMenuClick('committee', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'committee' && 'text-purple-800 font-bold'}`}>Committee</a>
                     <a href="#travel" onClick={(e) => handleMenuClick('travel', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'travel' && 'text-purple-800 font-bold'}`}>Travel</a>
-                    <a href="#contact" onClick={(e) => handleMenuClick('contact', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'contact' && 'text-purple-800 font-bold'}`}>Contact US</a>
+                    <a href="#contact" onClick={(e) => handleMenuClick('contact', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'contact' && 'text-purple-800 font-bold'}`}>Contact Us</a>
                     <a href="#register" onClick={(e) => handleMenuClick('register', e)} className='bg-purple-800 px-3 py-1.5 rounded-full text-white hover:rounded-sm border border-purple-800 hover:bg-purple-50 hover:text-purple-800 ease-in-out duration-300'>Register Now</a>
                 </div>
                 <div className='lg:hidden'>
@@ -93,7 +93,7 @@ const Navbar = () => {
                     <a href="#speakers" onClick={(e) => handleMenuClick('speakers', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'speakers' && 'text-purple-800 font-bold'}`}>Keynote Speakers</a>
                     <a href="#committee" onClick={(e) => handleMenuClick('committee', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'committee' && 'text-purple-800 font-bold'}`}>Committee</a>
                     <a href="#travel" onClick={(e) => handleMenuClick('travel', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'travel' && 'text-purple-800 font-bold'}`}>Travel</a>
-                    <a href="#contact" onClick={(e) => handleMenuClick('contact', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'contact' && 'text-purple-800 font-bold'}`}>Contact US</a>
+                    <a href="#contact" onClick={(e) => handleMenuClick('contact', e)} className={`cursor-pointer hover:text-purple-600 ease-in-out duration-200 ${currentTab === 'contact' && 'text-purple-800 font-bold'}`}>Contact Us</a>
                     <a href="#register" onClick={(e) => handleMenuClick('register', e)} className='bg-purple-800 px-3 py-1.5 rounded-full text-white hover:rounded-sm border border-purple-800 hover:bg-purple-50 hover:text-purple-800 ease-in-out duration-300'>Register Now</a>
                 </div>
             </div>

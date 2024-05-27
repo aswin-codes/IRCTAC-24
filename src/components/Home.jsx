@@ -45,12 +45,12 @@ const Home = () => {
                     </div>
                     <div className='mt-4 mx-auto sm:px-4 title'>
                         <p className='text-lg sm:text-2xl text-center text-purple-800 font-semibold'>
-                            7th INTERNATIONAL CONFERENCE ON RECENT TRENDS IN ADVANCED COMPUTING (ICRTAC)
+                            7th INTERNATIONAL CONFERENCE ON RECENT TRENDS IN ADVANCED COMPUTING (ICRTAC'24)
                         </p>
                     </div>
                     <div className='mt-8 sm:mt-16 subtitle'>
                         <p className='text-center text-base sm:text-xl font-semibold'>
-                            “Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24”
+                           Theme :  “Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24”
                         </p>
                     </div>
                     <div className='mt-10 sm:mt-14 organized'>
@@ -58,11 +58,11 @@ const Home = () => {
                     </div>
                     <div className='mt-4 font-semibold text-base sm:text-xl w-5/6 mx-auto text-center logos'>
                         <p className='text-purple-800'>
-                            School of Computer Science and Engineering, Vellore Institute of Technology, Chennai
+                            School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India
                         </p>
                         <p className='text-center mt-1'>With</p>
                         <p className='text-mred mt-1'>
-                            Faculty of Computer Science and Information Universiti Putra Malaysia, Malaysia
+                            Faculty of Computer Science and Information, Universiti Putra Malaysia, Malaysia
                             {/* <span className='text-black'>,</span> */}
                         </p>
                         {/* <p className='text-mblue mt-1'>

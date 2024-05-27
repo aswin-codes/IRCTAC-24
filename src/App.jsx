@@ -14,7 +14,7 @@ import ContactUs from './components/ContactUs';
 
 function App() {
     return (
-        <div className='w-screen font-sora bg-purple-50'>
+        <div className='w-screen font-sora bg-purple-50 text-justify'>
             <div className=' font-sora '>
                 <Navbar />
                 <section id='home'>

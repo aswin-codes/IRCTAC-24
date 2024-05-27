@@ -16,8 +16,8 @@ const RegistrationFeeTable = () => {
         <section id='register'>
             <div className="max-w-[1440px] mx-auto py-20 px-4">
                 <h2 className="reveal text-3xl font-bold text-center text-purple-800 mb-8">Registration Fee</h2>
-                <div className="overflow-x-auto">
-                    <table className="reveal min-w-full bg-white border border-gray-200">
+                <div className="overflow-x-auto sm:max-w-2xl mx-auto">
+                    <table className="reveal min-w-full sm:min-w-auto bg-white border border-gray-200">
                         <thead>
                             <tr className="bg-gray-200">
                                 <th className="px-4 py-2 border" colSpan="3">REGISTRATION FEE (inclusive of 18% GST)</th>
@@ -31,40 +31,41 @@ const RegistrationFeeTable = () => {
                         <tbody>
                             <tr>
                                 <td className="px-4 py-2 border">Graduate Students (UG & PG) / Research Scholars</td>
-                                <td className="px-4 py-2 border">To be announced</td>
-                                <td className="px-4 py-2 border">To be announced</td>
+                                <td className="px-4 py-2 border">Rs. 8,750</td>
+                                <td className="px-4 py-2 border">Rs. 8,250</td>
                             </tr>
                             <tr className="bg-gray-50">
                                 <td className="px-4 py-2 border">Academicians</td>
-                                <td className="px-4 py-2 border">To be announced</td>
-                                <td className="px-4 py-2 border">To be announced</td>
+                                <td className="px-4 py-2 border">Rs. 9,750</td>
+                                <td className="px-4 py-2 border">Rs. 9,250 </td>
                             </tr>
                             <tr>
                                 <td className="px-4 py-2 border">Industry and Others</td>
-                                <td className="px-4 py-2 border">To be announced</td>
-                                <td className="px-4 py-2 border">To be announced</td>
+                                <td className="px-4 py-2 border">Rs. 10,750</td>
+                                <td className="px-4 py-2 border">Rs. 10,250 </td>
                             </tr>
                             <tr className="bg-gray-50">
                                 <td className="px-4 py-2 border">Participants</td>
-                                <td className="px-4 py-2 border">To be announced</td>
-                                <td className="px-4 py-2 border">To be announced</td>
+                                <td className="px-4 py-2 border">Rs. 1,500</td>
+                                <td className="px-4 py-2 border">Rs. 1,500</td>
                             </tr>
                             <tr>
                                 <td className="px-4 py-2 border">Additional Conferences kit and Proceedings</td>
-                                <td className="px-4 py-2 border">To be announced</td>
-                                <td className="px-4 py-2 border">To be announced</td>
+                                <td className="px-4 py-2 border">Rs. 2,000</td>
+                                <td className="px-4 py-2 border">Rs. 2,000 </td>
                             </tr>
                             <tr className="bg-gray-50">
                                 <td className="px-4 py-2 border">Foreign Authors</td>
-                                <td className="px-4 py-2 border">To be announced</td>
-                                <td className="px-4 py-2 border">To be announced</td>
+                                <td className="px-4 py-2 border">275 USD</td>
+                                <td className="px-4 py-2 border">250 USD</td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                <p className="reveal mt-4 text-sm text-gray-600">
+                    <p className="reveal mt-4 text-sm text-gray-600">
                     <strong>Note:</strong> Registration fee doesn't cover bank charges and includes only participation & presentation to conference.
                 </p>
+                </div>
+                
                 <div className="reveal mt-8 text-center">
                     <h3 className="text-xl font-bold text-purple-800">Payment Link</h3>
                     <p className="mt-2">For Payment (After Acceptance of Article): <a href="#" className="text-blue-600 underline">(Coming soon)</a></p>

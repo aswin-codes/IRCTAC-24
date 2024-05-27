@@ -9,7 +9,7 @@ const Submission = () => {
                 class="flex flex-col  w-full max-w-[1440px] max-md:mt-10 max-md:max-w-full"
             >
                 <div
-                    class="flex gap-5 justify-between self-end max-w-full text-center w-[1106px] max-md:flex-wrap"
+                    class="flex gap-5 justify-between self-center max-w-full text-center w-[1106px] max-md:flex-wrap"
                 >
                     <div class="flex flex-col">
                         <div class="self-center font-bold text-3xl text-purple-800">
@@ -24,9 +24,13 @@ const Submission = () => {
                         <div class="self-center text-3xl text-purple-800 font-bold">
                             Manuscript Template
                         </div>
-                        <div class="mt-5 text-xl text-black underline max-md:max-w-full">
-                            <span class="">To download manuscript template: </span>
-                            <span class="underline">(coming soon)</span>
+                        <div class="mt-5 text-xl text-black  max-md:max-w-full">
+                            <span class="">To download manuscript word template: </span>
+                            <a href='https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734'><span class="underline">Click Here</span></a>
+                        </div>
+                        <div class="mt-5 text-xl text-black  max-md:max-w-full">
+                            <span class="">To download manuscript Latex template: </span>
+                            <a href='https://www.springer.com/gp/computer-science/lncs/new-latex-templates-available/15634678'><span class="underline">Click Here</span></a>
                         </div>
                     </div>
                 </div>
