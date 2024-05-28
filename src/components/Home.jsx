@@ -76,12 +76,12 @@ const Home = () => {
                         <img src={VIT} alt='VIT' className='h-80 w-full object-cover rounded-lg' />
                     </div>
                     <div className='flex justify-around px-10 mt-10 items-center logos-row-1'>
-                        <img src={VITL} alt='VIT Logo' className='object-contain h-10 sm:h-16' />
-                        <img src={UPM} alt='BIS Logo' className='object-contain h-10 sm:h-16' />
+                        <a href='https://chennai.vit.ac.in/'><img src={VITL} alt='VIT Logo' className='object-contain h-10 sm:h-16' /></a>
+                        <a href='https://www.upm.edu.my/?L=en'><img src={UPM} alt='BIS Logo' className='object-contain h-10 sm:h-16' /></a>
                     </div>
                     <div className='flex justify-around px-10 mt-3 items-center logos-row-2'>
-                        <img src={BIS} alt='UPM Logo' className='object-contain h-10 sm:h-16' />
-                        <img src={UI} alt='UIpath Logo' className='object-contain h-10 sm:h-16' />
+                    <a href='https://www.bis.gov.in/'> <img src={BIS} alt='UPM Logo' className='object-contain h-10 sm:h-16' /></a>
+                    <a href='https://www.uipath.com/'> <img src={UI} alt='UIpath Logo' className='object-contain h-10 sm:h-16' /></a>
                     </div>
                 </div>
             </div>
