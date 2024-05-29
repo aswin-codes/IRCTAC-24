@@ -33,7 +33,7 @@ const Home = () => {
 
     return (
         <div className=''>
-            <div className='px-6 sm:px-10 lg:px-20 py-10 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto mb-16 max-h-screen'>
+            <div className='px-6 sm:px-10 lg:px-20 py-10 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto mb-16 '>
                 <div className='flex-1 flex-col flex justify-center min-w-full sm:min-w-[450px] mt-5'>
                     <div className='flex flex-row items-center justify-between px-4'>
                         <div className='flex gap-2 items-center calendar'>
