@@ -11,6 +11,7 @@ import Speakers from './components/Speakers';
 import Committee from './components/Committee';
 import Travel from './components/Travel';
 import ContactUs from './components/ContactUs';
+import ImportantDates from './components/ImportantDates';
 
 function App() {
     return (
@@ -20,15 +21,16 @@ function App() {
                 <section id='home'>
                     <Home />
                     <Info />
-                    <About />
                 </section>
+                <About />
                 <Patrons />
                 <RegistrationFeeTable />
+                <ImportantDates/>
                 <Submission />
-                <Speakers/>                
-                <Committee/>
-                <Travel/>
-                <ContactUs/>
+                <Speakers />
+                <Committee />
+                {/* <Travel/> */}
+                <ContactUs />
                 <Footer />
             </div>
 

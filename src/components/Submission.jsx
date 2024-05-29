@@ -66,7 +66,7 @@ const Submission = () => {
                 <div class="mt-6 text-lg text-black max-md:max-w-full">
                     If you encounter any challenges during the submission process, our team is
                     here to assist you. Please feel free to reach out to us via email
-                    at chennai.icrtac@vit.ac.in. We are dedicated to providing timely support
+                    at <a href="mailto:chennai.icrtac@vit.ac.in"><span className='font-semibold underlinea'>chennai.icrtac@vit.ac.in</span></a>. We are dedicated to providing timely support
                     and resolving any issues you may face.
                 </div>
                 <div class="mt-10 text-2xl font-bold text-purple-800 max-md:max-w-full">
