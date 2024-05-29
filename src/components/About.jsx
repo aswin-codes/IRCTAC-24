@@ -42,37 +42,43 @@ const About = () => {
                     </div>
                     <div className='basis-1/3 flex items-center justify-center'><img src={VIT} alt='VIT' className='mt-3  w-full object-cover' /></div>
                 </div>
-                <h1 className='text-xl sm:text-2xl font-semibold text-purple-800 mt-5'>About Partners</h1>
+                <h1 className='text-xl sm:text-2xl font-semibold text-purple-800 mt-5'>About Association Partners</h1>
                 <hr className='h-[2px] bg-purple-700' />
-                <div className='flex flex-col lg:flex-row gap-5'>
+                <div className='flex flex-col  gap-5'>
                     <div className='flex-1'>
                         <div className='mt-4'>
                             <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>UPM</h1>
                             <hr className='h-[2px] bg-purple-700' />
-                            <img src={UPM} className='h-16 object-contain mx-auto mt-3' alt='UPM Logo' />
-                            <p className='mt-2'>UPM is the only university that leads in the field of agriculture, which is not limited to food crops, including animal husbandry, veterinary medicine, and forestry, in addition to exploring disciplines that are relevant to the needs of society and the country.
-                                Faculty of Computer Science and Information Technology is located next to the lake located at UPM's Main Gate. This faculty consists of four departments namely the Department of Computer Science, Department of Multimedia, Department of Software Engineering and Information System and the Department of Communication Technology and Network. Faculty of Computer Science and Information Technology is the first faculty to introduce "Green IT".<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}> Read more...</span>
-                            </p>
+                            <div className='flex flex-col lg:flex-row gap-5'>
 
+                                <p className='mt-2 basis-2/3'>UPM is the only university that leads in the field of agriculture, which is not limited to food crops, including animal husbandry, veterinary medicine, and forestry, in addition to exploring disciplines that are relevant to the needs of society and the country.
+                                    Faculty of Computer Science and Information Technology is located next to the lake located at UPM's Main Gate. This faculty consists of four departments namely the Department of Computer Science, Department of Multimedia, Department of Software Engineering and Information System and the Department of Communication Technology and Network. Faculty of Computer Science and Information Technology is the first faculty to introduce "Green IT".<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}> Read more...</span>
+                                </p>
+                                <img src={UPM} className='h-16 object-contain mx-auto mt-3 basis-1/3' alt='UPM Logo' />
+                            </div>
                         </div>
                     </div>
                     <div className='flex-1'>
                         <div className='mt-4'>
                             <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>BIS</h1>
                             <hr className='h-[2px] bg-purple-700' />
-                            <img src={BIS} className='h-16 object-contain mx-auto mt-3' alt='BIS Logo' />
-                            <p className='mt-2'>BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways – providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and imports substitute; control over proliferation of varieties etc. through standardization, certification and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}> Read more...</span>
-                            </p>
+                            <div className='flex flex-col lg:flex-row gap-5'>
 
+                                <p className='mt-2 basis-2/3'>BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways – providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and imports substitute; control over proliferation of varieties etc. through standardization, certification and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}> Read more...</span>
+                                </p>
+                                <img src={BIS} className='h-16 object-contain mx-auto mt-3 basis-1/3' alt='BIS Logo' />
+                            </div>
                         </div>
                     </div>
                     <div className='flex-1'>
                         <div className='mt-4'>
                             <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>UI Path</h1>
                             <hr className='h-[2px] bg-purple-700' />
-                            <img src={UI} className='h-16 object-contain mx-auto mt-3' alt='UI Path Logo' />
-                            <p className='mt-2'>Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology.  We are committed to promoting and maintaining an ethical workplace, protecting our customers’ data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight. <span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}> Read more...</span>
-                            </p>
+                            <div className='flex flex-col lg:flex-row gap-5'>
+
+                                <p className='mt-2 basis-2/3'>Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology.  We are committed to promoting and maintaining an ethical workplace, protecting our customers’ data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight. <span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}> Read more...</span>
+
+                                </p><img src={UI} className='h-16 object-contain mx-auto mt-3 basis-1/3' alt='UI Path Logo' /></div>
 
                         </div>
                     </div>
@@ -130,7 +136,7 @@ const About = () => {
                             {/* <img src={VITLogo} alt='VIT University' className='object-contain h-10 sm:h-16' /> */}
                         </div>
                     </div>
-                    
+
                     <div className='p-1 mt-10 brochure-content mb-10'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Brochure</h1>
                         <hr className='h-[2px] bg-purple-700' />
