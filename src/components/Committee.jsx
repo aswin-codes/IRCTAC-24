@@ -114,7 +114,7 @@ const Committee = () => {
                                         ))
                                     ) : (
                                         Object.entries(members).map(([subCategory, subMembers], subIndex) => (
-                                            <div key={subIndex}>
+                                            <div key={subIndex} className='ml-5'>
                                                 <h3 className="text-lg font-semibold mt-2">{convertToNormalWords(subCategory)}</h3>
                                                 <ul>
                                                     {subMembers.map((subMember, subMemberIndex) => (
