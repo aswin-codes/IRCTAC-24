@@ -5,6 +5,7 @@ import UPM from "../assets/upm.png";
 import UI from "../assets/ui.png";
 import BIS from "../assets/bis.png";
 import Springer from '../assets/springer.png';
+import Logo from "../assets/logo.png";
 
 const About = () => {
     useEffect(() => {
@@ -98,7 +99,7 @@ const About = () => {
                             <p className='mt-2 basis-2/3'>
                                 The conference on Sustainable Development Goals (SDGs) by the United Nations calls for global action towards 17 goals, including ending poverty and ensuring environmental protection by 2030. Leveraging digitization, the conference focuses on Blockchain, Cryptocurrency, 5G/6G Wireless, Drones, AI/ML, Quantum Computing, AR/VR, Digital Twin, Smart Cities, Fog/Edge Computing, Cybersecurity, automation, and Industry 4.0 to address these goals. It aims to develop advanced algorithmic approaches to surpass classical techniques, advancing SDGs through innovative technologies and sustainable automation practices.
                             </p>
-                            <img src="/logo.png" className='h-24 object-contain flex items-center justify-center mx-auto mt-3 basis-1/3' alt='ICRTAC Logo' />
+                            <img src={Logo} className='h-24 object-contain flex items-center justify-center mx-auto mt-3 basis-1/3' alt='ICRTAC Logo' />
                         </div>
                     </div>
                     <div className='p-1 mt-10 objectives-content'>
