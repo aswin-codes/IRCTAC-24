@@ -70,7 +70,7 @@ const About = () => {
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <p className='mt-2 basis-2/3'>
-                                    BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking, and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways – providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and import substitutes; control over proliferation of varieties etc. through standardization, certification, and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}>Read more...</span>
+                                    BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking, and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways by providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and import substitutes; control over proliferation of varieties etc. through standardization, certification, and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}>Read more...</span>
                                 </p>
                                 <img src={BIS} className='h-16 object-contain mx-auto mt-3 basis-1/3' alt='BIS Logo' />
                             </div>
@@ -82,7 +82,7 @@ const About = () => {
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <p className='mt-2 basis-2/3'>
-                                    Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology. We are committed to promoting and maintaining an ethical workplace, protecting our customers’ data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}>Read more...</span>
+                                    Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology. We are committed to promoting and maintaining an ethical workplace, protecting our customers data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}>Read more...</span>
                                 </p>
                                 <img src={UI} className='h-16 object-contain mx-auto mt-3 flex items-center justify-center basis-1/3' alt='UI Path Logo' />
                             </div>
