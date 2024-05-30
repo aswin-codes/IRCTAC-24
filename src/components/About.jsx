@@ -77,7 +77,7 @@ const About = () => {
                     </div>
                     <div className='flex-1'>
                         <div className='mt-4  about-vit-content'>
-                            <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>UI Path</h1>
+                            <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Ui Path</h1>
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <p className='mt-2 basis-2/3'>
