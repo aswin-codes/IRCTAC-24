@@ -74,24 +74,15 @@ const Committee = () => {
                     </button>
                     <button
 
-                        onClick={() => handleChangeCommittee('international')}
-                        className={`${selectedCommittee === 'international'
+                        onClick={() => handleChangeCommittee('advisory')}
+                        className={`${selectedCommittee === 'advisory'
                             ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
                             : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
                             } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                     >
-                        International Committee
+                        Advisory Committee
                     </button>
-                    <button
-
-                        onClick={() => handleChangeCommittee('national')}
-                        className={`${selectedCommittee === 'national'
-                            ? 'bg-purple-800 shadow-md shadow-purple-400 text-white'
-                            : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
-                            } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
-                    >
-                        National Committee
-                    </button>
+                   
 
                 </div>
                 <div className={`${data[selectedCommittee] ? 'max-h-auto' : 'max-h-48'} transition-all duration-200 ease-in-out  flex flex-col w-fit mx-auto justify-start items-start`}>
