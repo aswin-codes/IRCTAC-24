@@ -21,7 +21,7 @@ const Info = () => {
       <div className='mt-16 grid grid-cols-1 md:grid-cols-2 gap-10'>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Instruction to Authors</h1>
-          <p>For Instructions: <span className='underline cursor-pointer'><a href='#'>Click here</a></span></p>
+          <p>For Instructions: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Online Presentation Track Details</h1>

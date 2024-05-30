@@ -5,7 +5,7 @@ const ImportantDates = () => {
         <section id="date" className="flex justify-center items-center px-6 py-10">
             <div className="flex flex-col w-full max-w-2xl">
                 <h1 className="text-2xl text-center text-purple-800 font-bold mb-10">Important Dates</h1>
-                <div className='max-w-full overflow-x-scroll sm:translate-x-20'>
+                <div className='max-w-full overflow-x-scroll md:overflow-x-hidden sm:translate-x-20'>
                     <table className='text-sm sm:text-lg w-full'>
                         <tbody>
                             <tr className='border-y-8 border-transparent'>

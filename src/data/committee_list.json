@@ -1,7 +1,7 @@
 {
   "general": {
     "chairs": [
-      "Dr. Ganesan.R (Dean/SCOPE)$Vellore Institute of Technology, Chennai",
+      "Dr. Ganesan.R (Dean,SCOPE)$Vellore Institute of Technology, Chennai",
       "Dr. Shyamala Subramaniam (Dean, UPM)$Universiti Putra Malaysia, Malaysia"
     ],
     "coChairs": [
@@ -61,7 +61,7 @@
     ]
   },
   "organizing": {
-    "technicalCommittee": [
+    "organizingCommittee": [
       "Dr. Rajalakshmi R$Vellore Institute of Technology, Chennai",
       "Dr. Sakthivel V$Vellore Institute of Technology, Chennai",
       "Dr. Swaminathan A$Vellore Institute of Technology, Chennai",
@@ -75,14 +75,10 @@
       "Dr. Thinagaran Perumal$Universiti Putra Malaysia, Malaysia",
       "Dr. Puteri Suhaiza binti Sulaiman$Universiti Putra Malaysia, Malaysia",
       "Dr. Zurina Hanapi$Universiti Putra Malaysia, Malaysia",
-      "Dr. Novia Indriaty Admodisastro$Universiti Putra Malaysia, Malaysia"
-    ],
-    "websiteAndBrochure": [
+      "Dr. Novia Indriaty Admodisastro$Universiti Putra Malaysia, Malaysia",
       "Dr. Rama Parvathy L$Vellore Institute of Technology, Chennai",
       "Dr. Sandhya P$Vellore Institute of Technology, Chennai",
-      "Dr. Kanniga Devi R$Vellore Institute of Technology, Chennai"
-    ],
-    "digitalMarketing": [
+      "Dr. Kanniga Devi R$Vellore Institute of Technology, Chennai",
       "Dr. Sivagami M$Vellore Institute of Technology, Chennai",
       "Dr. Santhi V$Vellore Institute of Technology, Chennai",
       "Dr. Maria Anu V$Vellore Institute of Technology, Chennai",
@@ -93,9 +89,7 @@
       "Dr. Afruza Begum$Vellore Institute of Technology, Chennai",
       "Dr. Nathezhtha T$Vellore Institute of Technology, Chennai",
       "Dr. Malathi D$Vellore Institute of Technology, Chennai",
-      "Prof. Karthika V$Vellore Institute of Technology, Chennai"
-    ],
-    "onlinePaperPresentationTrackMonitoring": [
+      "Prof. Karthika V$Vellore Institute of Technology, Chennai",
       "Dr. Anusha. K$Vellore Institute of Technology, Chennai",
       "Dr. Subbulakshmi T$Vellore Institute of Technology, Chennai",
       "Dr. Muthumanikadan V$Vellore Institute of Technology, Chennai",
@@ -107,9 +101,7 @@
       "Dr. Joe Dhanith P R$Vellore Institute of Technology, Chennai",
       "Dr. R. Reena Roy$Vellore Institute of Technology, Chennai",
       "Dr. Sujithra@Kanmani$Vellore Institute of Technology, Chennai",
-      "Dr. Elakiya E$Vellore Institute of Technology, Chennai"
-    ],
-    "offlinePaperPresentationTrackMonitoring": [
+      "Dr. Elakiya E$Vellore Institute of Technology, Chennai",
       "Dr. Malathi G$Vellore Institute of Technology, Chennai",
       "Dr. Thomas Abraham$Vellore Institute of Technology, Chennai",
       "Dr. Prakash.P$Vellore Institute of Technology, Chennai",
@@ -121,9 +113,7 @@
       "Dr. Ashoka Rajan R$Vellore Institute of Technology, Chennai",
       "Dr. Jahangeer Sidiq S$Vellore Institute of Technology, Chennai",
       "Dr. Sudharson S$Vellore Institute of Technology, Chennai",
-      "Dr. Indira B$Vellore Institute of Technology, Chennai"
-    ],
-    "registrationAndConferenceKitDistribution": [
+      "Dr. Indira B$Vellore Institute of Technology, Chennai",
       "Dr. Thanikachalam V$Vellore Institute of Technology, Chennai",
       "Dr. Pradeep K$Vellore Institute of Technology, Chennai",
       "Dr. Suvidha Rupeshkumar$Vellore Institute of Technology, Chennai",
@@ -131,57 +121,37 @@
       "Dr. Leninisha S$Vellore Institute of Technology, Chennai",
       "Dr. Manimegalai T$Vellore Institute of Technology, Chennai",
       "Dr. Sangeetha N$Vellore Institute of Technology, Chennai",
-      "Dr. Premanand V$Vellore Institute of Technology, Chennai"
-    ],
-    "stageArrangementAndMemento": [
+      "Dr. Premanand V$Vellore Institute of Technology, Chennai",
       "Dr. Suganeshwari G$Vellore Institute of Technology, Chennai",
       "Dr. Bhuvaneswari A$Vellore Institute of Technology, Chennai",
       "Dr. Suguna M$Vellore Institute of Technology, Chennai",
-      "Dr. Saraswathi D$Vellore Institute of Technology, Chennai"
-    ],
-    "refreshment": [
+      "Dr. Saraswathi D$Vellore Institute of Technology, Chennai",
       "Dr. Braveen M$Vellore Institute of Technology, Chennai",
       "Dr. Joshan Athanesious J$Vellore Institute of Technology, Chennai",
-      "Dr. Kiruthika S$Vellore Institute of Technology, Chennai"
-    ],
-    "masterOfCeremony": [
+      "Dr. Kiruthika S$Vellore Institute of Technology, Chennai",
       "Dr. Praveen Joe$Vellore Institute of Technology, Chennai",
       "Dr. Monica K M$Vellore Institute of Technology, Chennai",
       "Dr. Premalatha M$Vellore Institute of Technology, Chennai",
       "Dr. Om Kumar C U$Vellore Institute of Technology, Chennai",
-      "Prof. Priyanka Mishra$Vellore Institute of Technology, Chennai"
-    ],
-    "hospitalityTeam": {
-      "guests": [
-        "Dr. Ganesh N$Vellore Institute of Technology, Chennai",
-        "Dr. Benil T$Vellore Institute of Technology, Chennai",
-        "Dr. Savanan P$Vellore Institute of Technology, Chennai",
-        "Dr. Pravin Renold$Vellore Institute of Technology, Chennai",
-        "Dr. Sendhil R$Vellore Institute of Technology, Chennai"
-      ],
-      "participants": [
-        "Dr. Umitty Srinivasa Rao$Vellore Institute of Technology, Chennai",
-        "Dr. Suseela S$Vellore Institute of Technology, Chennai",
-        "Dr. Jayasudha M$Vellore Institute of Technology, Chennai",
-        "Dr. Sudeer Kumar E$Vellore Institute of Technology, Chennai",
-        "Prof. Manoranjitham M$Vellore Institute of Technology, Chennai"
-      ]
-    },
-    "budget": [
+      "Prof. Priyanka Mishra$Vellore Institute of Technology, Chennai",
+      "Dr. Ganesh N$Vellore Institute of Technology, Chennai",
+      "Dr. Benil T$Vellore Institute of Technology, Chennai",
+      "Dr. Savanan P$Vellore Institute of Technology, Chennai",
+      "Dr. Pravin Renold$Vellore Institute of Technology, Chennai",
+      "Dr. Sendhil R$Vellore Institute of Technology, Chennai",
+      "Dr. Umitty Srinivasa Rao$Vellore Institute of Technology, Chennai",
+      "Dr. Suseela S$Vellore Institute of Technology, Chennai",
+      "Dr. Jayasudha M$Vellore Institute of Technology, Chennai",
+      "Dr. Sudeer Kumar E$Vellore Institute of Technology, Chennai",
+      "Prof. Manoranjitham M$Vellore Institute of Technology, Chennai",
       "Dr. Suganya R$Vellore Institute of Technology, Chennai",
-      "Dr. Gayathri R$Vellore Institute of Technology, Chennai"
-    ],
-    "sponsorship": [
+      "Dr. Gayathri R$Vellore Institute of Technology, Chennai",
       "Dr. Priyaadharshini M$Vellore Institute of Technology, Chennai",
       "Dr. Renuka Devi R$Vellore Institute of Technology, Chennai",
       "Dr. Kabilan K$Vellore Institute of Technology, Chennai",
-      "Dr. Madheswari K$Vellore Institute of Technology, Chennai"
-    ],
-    "certificateGeneration": [
+      "Dr. Madheswari K$Vellore Institute of Technology, Chennai",
       "Dr. Jayasudha M$Vellore Institute of Technology, Chennai",
-      "Dr. Prassanna J$Vellore Institute of Technology, Chennai"
-    ],
-    "transportationCommittee": [
+      "Dr. Prassanna J$Vellore Institute of Technology, Chennai",
       "Dr. Ganesh N$Vellore Institute of Technology, Chennai",
       "Dr. Benil T$Vellore Institute of Technology, Chennai",
       "Dr. Sendhil R$Vellore Institute of Technology, Chennai",
