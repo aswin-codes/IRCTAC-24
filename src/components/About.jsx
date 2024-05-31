@@ -40,7 +40,7 @@ const About = () => {
                 <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>About VIT</h1>
                 <hr className='h-[2px] bg-purple-700' />
                 <div className='flex flex-col lg:flex-row gap-5  about-vit-content'>
-                    <div className='p-1 mt-2 basis-2/3'>
+                    <div className='p-1 basis-2/3'>
                         <p className='mt-3'>
                             VIT Chennai is a globally engaged, competitive research enriched campus, strategically located in a city that is one of the biggest automotive and IT hubs in Tamil Nadu. Its motto is to respond by rearing students to major industrial, social, economic, and environmental demands and challenges of cosmopolitan cities in India and the world in general. This eight-year-old campus offers undergraduate, postgraduate, and research programmes and draws smart students from every state in India through a highly competitive examination. <span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://chennai.vit.ac.in/')}>Read more...</span>
                         </p>
@@ -54,25 +54,27 @@ const About = () => {
                 <div className='flex flex-col gap-5  about-vit-content'>
                     <div className='flex-1'>
                         <div className='mt-4'>
-                            <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>UPM</h1>
+                            <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Universiti Putra Malaysia (UPM)</h1>
                             <hr className='h-[2px] bg-purple-700' />
-                            <div className='flex flex-col lg:flex-row gap-5'>
+                            <div className='flex  flex-col lg:flex-row gap-10'>
                                 <p className='mt-2 basis-2/3'>
                                     UPM is the only university that leads in the field of agriculture, which is not limited to food crops, including animal husbandry, veterinary medicine, and forestry, in addition to exploring disciplines that are relevant to the needs of society and the country. Faculty of Computer Science and Information Technology is located next to the lake located at UPM's Main Gate. This faculty consists of four departments namely the Department of Computer Science, Department of Multimedia, Department of Software Engineering and Information System, and the Department of Communication Technology and Network. Faculty of Computer Science and Information Technology is the first faculty to introduce "Green IT".<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}>Read more...</span>
                                 </p>
-                                <img src={UPM} className='h-16 object-contain mx-auto mt-3 basis-1/3' alt='UPM Logo' />
+                                <div ><img src={UPM} className='h-28 object-contain mx-auto mt-3 basis-1/3' alt='UPM Logo' />
+                                    <p className="text-mred italic text-sm mx-auto">Faculty of Computer Science and Information</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className='flex-1'>
                         <div className='mt-4  about-vit-content'>
-                            <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>BIS</h1>
+                            <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Bureau of Indian Standards (BIS)</h1>
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <p className='mt-2 basis-2/3'>
                                     BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking, and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways by providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and import substitutes; control over proliferation of varieties etc. through standardization, certification, and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}>Read more...</span>
                                 </p>
-                                <img src={BIS} className='h-16 object-contain mx-auto mt-3 basis-1/3' alt='BIS Logo' />
+                                <img src={BIS} className='h-28 object-contain mx-auto mt-3 basis-1/3' alt='BIS Logo' />
                             </div>
                         </div>
                     </div>
@@ -84,7 +86,7 @@ const About = () => {
                                 <p className='mt-2 basis-2/3'>
                                     Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology. We are committed to promoting and maintaining an ethical workplace, protecting our customers data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}>Read more...</span>
                                 </p>
-                                <img src={UI} className='h-16 object-contain mx-auto mt-3 flex items-center justify-center basis-1/3' alt='UI Path Logo' />
+                                <img src={UI} className='h-24 object-contain mx-auto mt-3 flex items-center justify-center basis-1/3' alt='UI Path Logo' />
                             </div>
                         </div>
                     </div>
@@ -97,9 +99,9 @@ const About = () => {
                         <hr className='h-[2px] bg-purple-700' />
                         <div className='flex flex-col lg:flex-row gap-5'>
                             <p className='mt-2 basis-2/3'>
-                                The conference on Sustainable Development Goals (SDGs) by the United Nations calls for global action towards 17 goals, including ending poverty and ensuring environmental protection by 2030. Leveraging digitization, the conference focuses on Blockchain, Cryptocurrency, 5G/6G Wireless, Drones, AI/ML, Quantum Computing, AR/VR, Digital Twin, Smart Cities, Fog/Edge Computing, Cybersecurity, automation, and Industry 4.0 to address these goals. It aims to develop advanced algorithmic approaches to surpass classical techniques, advancing SDGs through innovative technologies and sustainable automation practices.
+                            The 7th International Conference on Recent Trends in Advanced Computing (ICRTAC'24), scheduled for November 14th and 15th, 2024, at the Vellore Institute of Technology (VIT) Chennai, India, is centered on the theme "Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing." This event is dedicated to harnessing advanced computing technologies to tackle the United Nations' Sustainable Development Goals (SDGs), aiming for global progress in ending poverty and ensuring environmental protection by 2030. With a comprehensive agenda covering areas such as Blockchain, Cryptocurrency, 5G/6G Wireless, Drones, AI/ML, Quantum Computing, AR/VR, Digital Twin, Smart Cities, Fog/Edge Computing, Cyber security, automation, and Industry 4.0, the conference seeks to pioneer advanced algorithmic approaches surpassing classical techniques. It serves as an interdisciplinary platform for researchers, practitioners, and educators to deliberate on innovations in advanced computing, propose sustainable solutions to real-world challenges, explore novel automation methods, and integrate cutting-edge technologies with Robotic Process Automation to align SDG goals with recent trends in advanced computing, underscoring the imperative of automating sustainability for global development. In partnership, UPM, BIS, and UiPath converge to champion sustainable development through their expertise in agricultural sciences, standardization, quality certification, and AI-powered enterprise automation, with a shared commitment to driving impactful solutions and fostering innovation on a global scale.
                             </p>
-                            <img src={Logo} className='h-24 object-contain flex items-center justify-center mx-auto mt-3 basis-1/3' alt='ICRTAC Logo' />
+                            <img src={Logo} className='h-64 object-contain flex items-center justify-center mx-auto mt-3 basis-1/3' alt='ICRTAC Logo' />
                         </div>
                     </div>
                     <div className='p-1 mt-10 objectives-content'>
@@ -120,6 +122,7 @@ const About = () => {
                             <li>Quantum Computing in Science, Engineering and Management</li>
                             <li>Artificial Intelligence and Machine Learning</li>
                             <li>Robotic Process Automation (RPA)</li>
+                            <li>Automation in Sustainable Development</li>
                             <li>BIS standards for SDG Goals and Applications</li>
                             <li>Fog and Edge Computing</li>
                             <li>Intelligent Document, Image, and Video processing</li>
@@ -137,7 +140,7 @@ const About = () => {
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Publishing & Indexing</h1>
                         <hr className='h-[2px] bg-purple-700' />
                         <p className='mt-3'>
-                            ICRTAC 24 proceedings is being published by Springer's Communications in Computer and Information Science series (CCIS) (Under Review). All accepted and presented papers will be published by CCIS subject to meeting Springer's scope and quality requirements. Springer CCIS series is indexed in SCOPUS.
+                            ICRTAC 24 proceedings is being published by Springer's Communications in Computer and Information Science series (CCIS) <b className='font-bold'> (Under Review)</b>. All accepted and presented papers will be published by CCIS subject to meeting Springer's scope and quality requirements. Springer CCIS series is indexed in SCOPUS.
                         </p>
                         <div className='mt-3 flex lg:flex-row flex-col justify-around items-center my-2 gap-4'>
                             <img src={Springer} alt='Springer Publications' className='object-contain h-10 sm:h-16' />

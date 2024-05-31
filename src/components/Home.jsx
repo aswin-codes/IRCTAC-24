@@ -70,7 +70,7 @@ const Home = () => {
                         <p className='text-mblue mt-1'>
                             Bureau of Indian Standards<span className='text-black'> & </span>
                         </p>
-                        <p className='text-morange mt-1'>UiPath</p>
+                        <p className='text-morange mt-1'>UiPath Academic Alliance</p>
                     </div>
                 </div>
                 <div className="flex-1 flex-col flex justify-center min-w-full sm:min-w-96 sm:mt-0 mt-5">
