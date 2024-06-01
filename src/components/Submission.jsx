@@ -16,7 +16,7 @@ const Submission = () => {
                             Manuscript Submission
                         </div>
                         <div class="mt-5 text-xl text-black underline">
-                            <span class="">For manuscript submission: </span>
+                            <span class="">For manuscript submission:</span>
                             <span class="underline">(coming soon)</span>
                         </div>
                     </div>
@@ -25,11 +25,11 @@ const Submission = () => {
                             Manuscript Template
                         </div>
                         <div class="mt-5 text-xl text-black  max-md:max-w-full">
-                            <span class="">To download manuscript word template: </span>
+                            <span class="">To download manuscript word template:</span>
                             <a href='https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734'><span class="underline">Click Here</span></a>
                         </div>
                         <div class="mt-5 text-xl text-black  max-md:max-w-full">
-                            <span class="">To download manuscript Latex template: </span>
+                            <span class="">To download manuscript Latex template:   </span>
                             <a href='https://www.springer.com/gp/computer-science/lncs/new-latex-templates-available/15634678'><span class="underline">Click Here</span></a>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Submission = () => {
                 <div class="mt-6 text-lg text-black max-md:max-w-full">
                     If you encounter any challenges during the submission process, our team is
                     here to assist you. Please feel free to reach out to us via email
-                    at <a href="mailto:chennai.icrtac@vit.ac.in"><span className='font-semibold underlinea'>chennai.icrtac@vit.ac.in</span></a>. We are dedicated to providing timely support
+                    at <a href="mailto:chennai.icrtac@vit.ac.in"><span className='font-semibold underlinea'>chennai.icrtac@vit.ac.in</span></a>. We are dedicated to providing timely support
                     and resolving any issues you may face.
                 </div>
                 <div class="mt-10 text-2xl font-bold text-purple-800 max-md:max-w-full">

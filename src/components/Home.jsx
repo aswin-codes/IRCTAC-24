@@ -52,7 +52,7 @@ const Home = () => {
                     </div>
                     <div className='mt-4 sm:mt-6 subtitle'>
                         <p className='text-center text-base sm:text-xl font-semibold'>
-                            Theme :  	&ldquo;Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24&rdquo;
+                            Theme : Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24
                         </p>
                     </div>
                     <div className='mt-5 sm:mt-10 organized'>
