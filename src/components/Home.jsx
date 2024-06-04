@@ -52,7 +52,7 @@ const Home = () => {
                     </div>
                     <div className='mt-4 sm:mt-6 subtitle'>
                         <p className='text-center text-base sm:text-xl font-semibold'>
-                            Theme : Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24
+                            Theme : Automating Sustainability - Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24
                         </p>
                     </div>
                     <div className='mt-5 sm:mt-10 organized'>
@@ -64,7 +64,7 @@ const Home = () => {
                         </p>
                         <p className='text-center mt-1'>In Association With</p>
                         <p className='text-mred mt-1'>
-                            Faculty of Computer Science and Information, Universiti Putra Malaysia, Malaysia
+                            Faculty of Computer Science and Information Technology, Universiti Putra Malaysia, Malaysia
                             <span className='text-black'>,</span>
                         </p>
                         <p className='text-mblue mt-1'>

@@ -61,7 +61,7 @@ const About = () => {
                                     UPM is the only university that leads in the field of agriculture, which is not limited to food crops, including animal husbandry, veterinary medicine, and forestry, in addition to exploring disciplines that are relevant to the needs of society and the country. Faculty of Computer Science and Information Technology is located next to the lake located at UPM's Main Gate. This faculty consists of four departments namely the Department of Computer Science, Department of Multimedia, Department of Software Engineering and Information System, and the Department of Communication Technology and Network. Faculty of Computer Science and Information Technology is the first faculty to introduce "Green IT".<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}>Read more...</span>
                                 </p>
                                 <div ><img src={UPM} className='h-28 object-contain mx-auto mt-3 basis-1/3' alt='UPM Logo' />
-                                    <p className="text-mred italic text-sm mx-auto">Faculty of Computer Science and Information</p>
+                                    <p className="text-mred italic text-sm mx-auto">Faculty of Computer Science and Information Technology</p>
                                 </div>
                             </div>
                         </div>
