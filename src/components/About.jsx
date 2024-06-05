@@ -155,7 +155,7 @@ const About = () => {
                             <img src={Springer} alt='Springer Publications' className='object-contain h-10 sm:h-16' />
                         </div>
                     </div>
-                    <div className='p-1 publishing-content mt-4'>
+                    <section id="previous" className='p-1 publishing-content mt-4'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Previous Proceedings</h1>
                         <hr className='h-[2px] bg-purple-700' />
                         <div className="flex my-10 flex-wrap gap-5 justify-center">
@@ -198,7 +198,7 @@ const About = () => {
 
 
                         </div>
-                    </div>
+                    </section>
                     <div className='p-1 mt-10 brochure-content mb-10'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Brochure</h1>
                         <hr className='h-[2px] bg-purple-700' />
