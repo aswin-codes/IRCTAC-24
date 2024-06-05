@@ -108,7 +108,7 @@ const About = () => {
                         <hr className='h-[2px] bg-purple-700' />
                         <div className='flex flex-col lg:flex-row gap-5'>
                             <p className='mt-2 basis-2/3'>
-                            The 7th International Conference on Recent Trends in Advanced Computing (ICRTAC'24), scheduled for November 14th and 15th, 2024, at the Vellore Institute of Technology (VIT) Chennai, India, is centered on the theme "Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing." This event is dedicated to harnessing advanced computing technologies to tackle the United Nations' Sustainable Development Goals (SDGs), aiming for global progress in ending poverty and ensuring environmental protection by 2030. With a comprehensive agenda covering areas such as Blockchain, Cryptocurrency, 5G/6G Wireless, Drones, AI/ML, Quantum Computing, AR/VR, Digital Twin, Smart Cities, Fog/Edge Computing, Cyber security, automation, and Industry 4.0, the conference seeks to pioneer advanced algorithmic approaches surpassing classical techniques. It serves as an interdisciplinary platform for researchers, practitioners, and educators to deliberate on innovations in advanced computing, propose sustainable solutions to real-world challenges, explore novel automation methods, and integrate cutting-edge technologies with Robotic Process Automation to align SDG goals with recent trends in advanced computing, underscoring the imperative of automating sustainability for global development. In partnership, UPM, BIS, and UiPath converge to champion sustainable development through their expertise in agricultural sciences, standardization, quality certification, and AI-powered enterprise automation, with a shared commitment to driving impactful solutions and fostering innovation on a global scale.
+                                The 7th International Conference on Recent Trends in Advanced Computing (ICRTAC'24), scheduled for November 14th and 15th, 2024, at the Vellore Institute of Technology (VIT) Chennai, India, is centered on the theme "Automating Sustainability: Bridging SDG Goals with Recent Trends in Advanced Computing." This event is dedicated to harnessing advanced computing technologies to tackle the United Nations' Sustainable Development Goals (SDGs), aiming for global progress in ending poverty and ensuring environmental protection by 2030. With a comprehensive agenda covering areas such as Blockchain, Cryptocurrency, 5G/6G Wireless, Drones, AI/ML, Quantum Computing, AR/VR, Digital Twin, Smart Cities, Fog/Edge Computing, Cyber security, automation, and Industry 4.0, the conference seeks to pioneer advanced algorithmic approaches surpassing classical techniques. It serves as an interdisciplinary platform for researchers, practitioners, and educators to deliberate on innovations in advanced computing, propose sustainable solutions to real-world challenges, explore novel automation methods, and integrate cutting-edge technologies with Robotic Process Automation to align SDG goals with recent trends in advanced computing, underscoring the imperative of automating sustainability for global development. In partnership, UPM, BIS, and UiPath converge to champion sustainable development through their expertise in agricultural sciences, standardization, quality certification, and AI-powered enterprise automation, with a shared commitment to driving impactful solutions and fostering innovation on a global scale.
                             </p>
                             <img src={Logo} className='h-64 object-contain flex items-center justify-center mx-auto mt-3 basis-1/3' alt='ICRTAC Logo' />
                         </div>
@@ -153,6 +153,50 @@ const About = () => {
                         </p>
                         <div className='mt-3 flex lg:flex-row flex-col justify-around items-center my-2 gap-4'>
                             <img src={Springer} alt='Springer Publications' className='object-contain h-10 sm:h-16' />
+                        </div>
+                    </div>
+                    <div className='p-1 publishing-content mt-4'>
+                        <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Previous Proceedings</h1>
+                        <hr className='h-[2px] bg-purple-700' />
+                        <div className="flex my-10 flex-wrap gap-5 justify-center">
+
+                            <button
+
+                                onClick={() => handleRedirect('https://ieeexplore.ieee.org/xpl/conhome/8672423/proceeding')}
+                                className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                            >
+                                ICRTAC 18 <br/> <span className='text-sm'>First edition</span>
+                            </button>
+                            <button
+
+                                onClick={() => handleRedirect('https://www.proceedings.com/content/053/053716webtoc.pdf')}
+                                className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                            >
+                                ICRTAC 19 <br/> <span className='text-sm'>Second edition</span>
+                            </button>
+                            <button
+
+                                onClick={() => handleRedirect('https://link.springer.com/book/10.1007/978-981-16-6448-9')}
+                                className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                            >
+                                ICRTAC 20 <br/> <span className='text-sm'>Third edition</span>
+                            </button>
+                            <button
+
+                                onClick={() => handleRedirect('https://link.springer.com/book/10.1007/978-981-19-7169-3')}
+                                className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                            >
+                                ICRTAC 21 <br/> <span className='text-sm'>Fourth edition</span>
+                            </button>
+                            <button
+
+                                onClick={() => handleRedirect('https://ieeexplore.ieee.org/xpl/conhome/10480719/proceeding')}
+                                className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
+                            >
+                                ICRTAC 23 <br/> <span className='text-sm'>Sixth edition</span>
+                            </button>
+
+
                         </div>
                     </div>
                     <div className='p-1 mt-10 brochure-content mb-10'>
