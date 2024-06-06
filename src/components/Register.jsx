@@ -61,11 +61,14 @@ const RegistrationFeeTable = () => {
                             </tr> */}
                         </tbody>
                     </table>
-                    
+
                 </div>
                 <p className="reveal mt-4 text-sm text-gray-600 sm:max-w-2xl mx-auto">
-                        <strong>Note:</strong> Registration fee doesn't cover bank charges and includes only participation & presentation to conference.
-                    </p>
+                    <strong>Note:</strong> Registration fee doesn't cover bank charges and includes only participation & presentation to conference.
+                </p>
+                <p className="reveal mt-4 text-xl text-purple-800 italic text-center font-bold sm:max-w-2xl mx-auto">
+                    Attractive rewards will be given for Best Papers 
+                </p>
                 <div className="reveal mt-8 text-center">
                     <h3 className="text-xl font-bold text-purple-800">Payment Link</h3>
                     <p className="mt-2">For Payment (After Acceptance of Article): <a href="#" className="text-blue-600 underline">(Coming soon)</a></p>
