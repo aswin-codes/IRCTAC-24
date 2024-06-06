@@ -1,21 +1,21 @@
 {
   "general": {
     "chairs": [
-      "Dr. Ganesan.R (Dean, SCOPE)$Vellore Institute of Technology, Chennai",
-      "Dr. Shyamala Subramaniam (Dean, UPM)$Universiti Putra Malaysia, Malaysia"
+      "Dr. Ganesan.R, Dean, SCOPE$Vellore Institute of Technology, Chennai",
+      "Dr. Shyamala Subramaniam, Dean$Universiti Putra Malaysia, Malaysia"
     ],
     "coChairs": [
-      "Dr. Parvathi R (Associate Dean, Academics)$Vellore Institute of Technology, Chennai",
-      "Dr. Geetha S (Associate Dean, Research)$Vellore Institute of Technology, Chennai",
-      "Dr. Hazura Zulzalil (Deputy Dean, FSKTM, UPM)$Universiti Putra Malaysia, Malaysia"
+      "Dr. Parvathi R, Associate Dean(Academics)$Vellore Institute of Technology, Chennai",
+      "Dr. Geetha S, Associate Dean(Research)$Vellore Institute of Technology, Chennai",
+      "Dr. Hazura Zulzalil,Deputy Dean, FSKTM$Universiti Putra Malaysia, Malaysia"
     ]
   },
   "conference": {
     "organizationalChairs": [
       "Dr. Vallidevi K, SCOPE$Vellore Institute of Technology, Chennai",
       "Dr. Suganya R, SCOPE$Vellore Institute of Technology, Chennai",
-      "Dr. Abdullah Muhamed (Deputy Dean, FSKTM, UPM)$Universiti Putra Malaysia, Malaysia",
-      "Dr. Iskandar Ishak (Deputy Dean, FSKTM, UPM)$Universiti Putra Malaysia, Malaysia"
+      "Dr. Abdullah Muhamed, Deputy Dean, FSKTM$Universiti Putra Malaysia, Malaysia",
+      "Dr. Iskandar Ishak, Deputy Dean, FSKTM$Universiti Putra Malaysia, Malaysia"
     ],
     "technicalChairs": [
       "Dr. Rama Parvathy L, SCOPE$Vellore Institute of Technology, Chennai",
@@ -60,7 +60,7 @@
     ]
   },
   "organizing": {
-    "committee": [
+    "localOrganizingCommittee": [
       "Dr. Rajalakshmi R$Vellore Institute of Technology, Chennai",
       "Dr. Sakthivel V$Vellore Institute of Technology, Chennai",
       "Dr. Swaminathan A$Vellore Institute of Technology, Chennai",

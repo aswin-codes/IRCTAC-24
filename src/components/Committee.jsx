@@ -29,7 +29,7 @@ const Committee = () => {
     return (
         <section id="committee" className="flex justify-center items-center px-16 py-20 max-md:px-5 bg-purple-100">
             <div className="flex flex-col w-full max-w-[1440px] max-md:mt-10 max-md:max-w-full">
-                <h1 className="text-xl sm:text-2xl text-purple-800 font-bold">Committee</h1>
+                <h1 className="text-xl sm:text-2xl text-purple-800 font-bold">Conference Committee</h1>
                 <div className="flex my-10 flex-wrap gap-5 justify-center">
 
                     <button
@@ -70,7 +70,7 @@ const Committee = () => {
                             : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
                             } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                     >
-                        Organizing Committee
+                        Local Organizing Committee
                     </button>
                     <button
 
@@ -98,7 +98,7 @@ const Committee = () => {
                                                     <DoubleTickIcon />
                                                 </span>
                                                 <p>
-                                                    <span className="font-bold text-purple-800">{member.substring(0, member.indexOf('$'))},</span>
+                                                    <span className="font-bold text-purple-800">{member.substring(0, member.indexOf('$'))}, </span>
                                                     <span>{member.substr(member.indexOf('$') + 1)}</span>
                                                 </p>
                                             </li>
@@ -114,7 +114,7 @@ const Committee = () => {
                                                                 <DoubleTickIcon />
                                                             </span>
                                                             <p>
-                                                                <span className="font-bold text-purple-800">{subMember.substring(0, subMember.indexOf('$'))},</span>
+                                                                <span className="font-bold text-purple-800">{subMember.substring(0, subMember.indexOf('$'))}, </span>
                                                                 <span>{subMember.substr(subMember.indexOf('$') + 1)}</span>
                                                             </p>
                                                         </li>

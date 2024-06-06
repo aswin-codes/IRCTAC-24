@@ -29,7 +29,7 @@ const Info = () => {
           <p>Day 2 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
-          <h1 className='text-morange text-lg sm:text-2xl font-semibold'>ICRTAC-2024 Conference Schedule</h1>
+          <h1 className='text-morange text-lg sm:text-2xl font-semibold'>ICRTAC'24 Conference Schedule</h1>
           <p>For complete schedule details: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>

@@ -67,7 +67,7 @@ const About = () => {
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex  flex-col lg:flex-row gap-10'>
                                 <p className='mt-2 basis-2/3'>
-                                    UPM is the only university that leads in the field of agriculture, which is not limited to food crops, including animal husbandry, veterinary medicine, and forestry, in addition to exploring disciplines that are relevant to the needs of society and the country. Faculty of Computer Science and Information Technology is located next to the lake located at UPM's Main Gate. This faculty consists of four departments namely the Department of Computer Science, Department of Multimedia, Department of Software Engineering and Information System, and the Department of Communication Technology and Network. Faculty of Computer Science and Information Technology is the first faculty to introduce "Green IT".<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}>Read more...</span>
+                                    UPM is the only university that leads in the field of agriculture, which is not limited to food crops, including animal husbandry, veterinary medicine, and forestry, in addition to exploring disciplines that are relevant to the needs of society and the country. Faculty of Computer Science and Information Technology is located next to the lake located at UPM's Main Gate. This faculty consists of four departments namely the Department of Computer Science, Department of Multimedia, Department of Software Engineering and Information System, and the Department of Communication Technology and Network. Faculty of Computer Science and Information Technology is the first faculty to introduce "Green IT".<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.upm.edu.my/?L=en')}> Read more...</span>
                                 </p>
                                 <div ><img src={UPM} className='h-28 object-contain mx-auto mt-3 basis-1/3' alt='UPM Logo' />
                                     <p className="text-mred italic text-sm mx-auto">Faculty of Computer Science and Information Technology</p>
@@ -81,7 +81,7 @@ const About = () => {
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <p className='mt-2 basis-2/3'>
-                                    BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking, and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways by providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and import substitutes; control over proliferation of varieties etc. through standardization, certification, and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}>Read more...</span>
+                                    BIS is the National Standard Body of India established under the BIS Act 2016 for the harmonious development of the activities of standardization, marking, and quality certification of goods and for matters connected therewith or incidental thereto. BIS has been providing traceability and tangibility benefits to the national economy in a number of ways by providing safe reliable quality goods; minimizing health hazards to consumers; promoting exports and import substitutes; control over proliferation of varieties etc. through standardization, certification, and testing.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.bis.gov.in/')}> Read more...</span>
                                 </p>
                                 <img src={BIS} className='h-28 object-contain mx-auto mt-3 basis-1/3' alt='BIS Logo' />
                             </div>
@@ -93,7 +93,7 @@ const About = () => {
                             <hr className='h-[2px] bg-purple-700' />
                             <div className='flex flex-col lg:flex-row gap-5'>
                                 <p className='mt-2 basis-2/3'>
-                                    Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology. We are committed to promoting and maintaining an ethical workplace, protecting our customers data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}>Read more...</span>
+                                    Automation and AI offer unprecedented opportunities to innovate. UiPath enables our customers to tap into this power with our industry-leading AI-powered enterprise automation technology. We are committed to promoting and maintaining an ethical workplace, protecting our customers data, managing risks, and building ongoing stakeholder value through the practice of good governance and oversight.<span className='font-bold cursor-pointer' onClick={() => handleRedirect('https://www.uipath.com/')}> Read more...</span>
                                 </p>
                                 <img src={UI} className='h-24 object-contain mx-auto mt-3 flex items-center justify-center basis-1/3' alt='UI Path Logo' />
                             </div>
@@ -125,7 +125,7 @@ const About = () => {
                     </div>
                     <div className='p-1 mt-10 tracks-content'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Tracks</h1>
-                        <p className='text-base'>The seventh edition of ICRTAC - 2024 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
+                        <p className='text-base'>The seventh edition of ICRTAC'24 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
                         <hr className='h-[2px] bg-purple-700' />
                         <ol className='list-decimal list-inside mt-3'>
                             <li>Quantum Computing in Science, Engineering and Management</li>
@@ -149,11 +149,11 @@ const About = () => {
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Publishing & Indexing</h1>
                         <hr className='h-[2px] bg-purple-700' />
                         <p className='mt-3'>
-                            ICRTAC 24 proceedings is being published by Springer's Communications in Computer and Information Science series (CCIS) <b className='font-bold'> (Under Review)</b>. All accepted and presented papers will be published by CCIS subject to meeting Springer's scope and quality requirements. Springer CCIS series is indexed in SCOPUS.
+                        <b className='font-bold'>ICRTAC 24 proceedings is being published by Springer's Communications in Computer and Information Science series (CCIS)  (Under Consideration)</b>. All accepted and presented papers will be published by CCIS subject to meeting Springer's scope and quality requirements.<b className='font-bold'> Springer CCIS series is indexed in SCOPUS.</b>
                         </p>
-                        <div className='mt-3 flex lg:flex-row flex-col justify-around items-center my-2 gap-4'>
+                        {/* <div className='mt-3 flex lg:flex-row flex-col justify-around items-center my-2 gap-4'>
                             <img src={Springer} alt='Springer Publications' className='object-contain h-10 sm:h-16' />
-                        </div>
+                        </div> */}
                     </div>
                     <section id="previous" className='p-1 publishing-content mt-4'>
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Previous Proceedings</h1>
@@ -165,35 +165,35 @@ const About = () => {
                                 onClick={() => handleRedirect('https://ieeexplore.ieee.org/xpl/conhome/8672423/proceeding')}
                                 className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                             >
-                                ICRTAC 18 <br/> <span className='text-sm'>First edition</span>
+                                ICRTAC'18 <br/> <span className='text-sm'>First edition</span>
                             </button>
                             <button
 
                                 onClick={() => handleRedirect('https://www.proceedings.com/content/053/053716webtoc.pdf')}
                                 className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                             >
-                                ICRTAC 19 <br/> <span className='text-sm'>Second edition</span>
+                                ICRTAC'19 <br/> <span className='text-sm'>Second edition</span>
                             </button>
                             <button
 
                                 onClick={() => handleRedirect('https://link.springer.com/book/10.1007/978-981-16-6448-9')}
                                 className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                             >
-                                ICRTAC 20 <br/> <span className='text-sm'>Third edition</span>
+                                ICRTAC'20 <br/> <span className='text-sm'>Third edition</span>
                             </button>
                             <button
 
                                 onClick={() => handleRedirect('https://link.springer.com/book/10.1007/978-981-19-7169-3')}
                                 className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                             >
-                                ICRTAC 21 <br/> <span className='text-sm'>Fourth edition</span>
+                                ICRTAC'21 <br/> <span className='text-sm'>Fourth edition</span>
                             </button>
                             <button
 
                                 onClick={() => handleRedirect('https://ieeexplore.ieee.org/xpl/conhome/10480719/proceeding')}
                                 className={`font-semibold text-lg bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500 border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                             >
-                                ICRTAC 23 <br/> <span className='text-sm'>Sixth edition</span>
+                                ICRTAC'23 <br/> <span className='text-sm'>Sixth edition</span>
                             </button>
 
 
