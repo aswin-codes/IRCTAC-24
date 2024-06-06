@@ -19,7 +19,7 @@ const ImportantDates = () => {
                                 <td className='text-left'><p className='ml-2 sm:ml-10 w-fit'>Paper submission deadline</p></td>
                             </tr>
                             <tr className='border-y-8 border-transparent'>
-                                <td className='w-56 text-right font-bold whitespace-nowrap'><p className='mr-2 sm:mr-10'>31st September 2024</p></td>
+                                <td className='w-56 text-right font-bold whitespace-nowrap'><p className='mr-2 sm:mr-10'>30st September 2024</p></td>
                                 <td className='w-8'><div className="w-4 h-4 rounded-full bg-purple-600 mx-auto"></div></td>
                                 <td className='text-left'><p className='ml-2 sm:ml-10 w-fit'>Acceptance notification</p></td>
                             </tr>
