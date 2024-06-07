@@ -127,22 +127,37 @@ const About = () => {
                         <h1 className='text-xl sm:text-2xl font-semibold text-purple-800'>Tracks</h1>
                         <p className='text-base'>The seventh edition of ICRTAC'24 invites submissions of original unpublished technical papers on the following topics, but not limited to:</p>
                         <hr className='h-[2px] bg-purple-700' />
-                        <ol className='list-decimal list-inside mt-3'>
-                            <li>Quantum Computing in Science, Engineering and Management</li>
-                            <li>Artificial Intelligence and Machine Learning</li>
-                            <li>Robotic Process Automation (RPA)</li>
-                            <li>Automation in Sustainable Development</li>
-                            <li>BIS standards for SDG Goals and Applications</li>
-                            <li>Fog and Edge Computing</li>
-                            <li>Intelligent Document, Image, and Video processing</li>
-                            <li>Cognitive automation</li>
-                            <li>Augmented Reality and Virtual Reality</li>
-                            <li>Digital Twin Technologies and Smart Cities</li>
-                            <li>Drones and Robotic Technology</li>
+                        <p className='font-bold mt-1'>Artificial Intelligence:</p>
+                        <ol className='list-decimal list-inside '>
+                            <li>Natural Language Processing & LLM</li>
+                            <li>Generative AI</li>
+                            <li>Creative AI</li>
+                            <li>Machine Learning & Hybrid Systems</li>
+                        </ol>
+                        <p className='font-bold mt-1'>Automation:</p>
+                        <ol className='list-decimal list-inside '>
+                            <li>Robotic Process Automation
+</li>
+                            <li>Cognitive Automation</li>
                             <li>Cyber Security Automation</li>
-                            <li>Blockchain Technology and Cryptocurrency</li>
-                            <li>Natural Language Processing and LLM</li>
+                            <li>Intelligent Document, Image & Video processing</li>
+                        </ol>
+                        <p className='font-bold mt-1'>Emerging Technologies:</p>
+                        <ol className='list-decimal list-inside '>
+                            <li>Digital Twin Technologies
+</li>
+                            <li>Drones and Robotic Technology</li>
+                            <li>Blockchain Technology & Cryptocurrency</li>
                             <li>5G and 6G Wireless Technology</li>
+                            <li>Augmented Reality and Virtual Reality</li>
+                            <li>Quantum Computing in STEM</li>
+                        </ol>
+                        <p className='font-bold mt-1'> BIS standards for SDG based Applications:</p>
+                        <ol className='list-decimal list-inside '>
+                            <li>Smart Cities
+</li>
+                            <li>Health care</li>
+                            <li> Climate Change</li>
                         </ol>
                     </div>
                     <div className='p-1 publishing-content mt-4'>

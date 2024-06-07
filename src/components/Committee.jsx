@@ -50,7 +50,7 @@ const Committee = () => {
                             : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
                             } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                     >
-                        Conference Committee
+                        Program Chair Committee
                     </button>
                     <button
 
@@ -70,7 +70,7 @@ const Committee = () => {
                             : 'bg-transparent text-purple-800 hover:bg-transparent hover:text-purple-500'
                             } font-semibold text-lg border border-purple-800 rounded-md transition-all duration-200 ease-in-out px-4 py-2`}
                     >
-                        Local Organizing Committee
+                        Organizing Committee
                     </button>
                     <button
 

@@ -1,23 +1,23 @@
 {
   "general": {
-    "chairs": [
-      "Dr. Ganesan.R, Dean, SCOPE$Vellore Institute of Technology, Chennai",
+    "generalChairs": [
+      "Dr. Ganesan R, Dean, SCOPE$Vellore Institute of Technology, Chennai",
       "Prof. Dato' Dr  Shamala Subramaniam, Dean$Universiti Putra Malaysia, Malaysia"
     ],
-    "coChairs": [
-      "Dr. Parvathi R, Associate Dean(Academics)$Vellore Institute of Technology, Chennai",
-      "Dr. Geetha S, Associate Dean(Research)$Vellore Institute of Technology, Chennai",
+    "generalCo-Chairs": [
+      "Dr. Parvathi R, Associate Dean (Academics)$Vellore Institute of Technology, Chennai",
+      "Dr. Geetha S, Associate Dean (Research)$Vellore Institute of Technology, Chennai",
       "Dr. Hazura Zulzalil, Deputy Dean, FSKTM$Universiti Putra Malaysia, Malaysia"
     ]
   },
   "conference": {
-    "organizationalChairs": [
+    "programOrganizationalChairs": [
       "Dr. Vallidevi K, Associate Professor, SCOPE$Vellore Institute of Technology, Chennai",
       "Dr. Suganya R, Associate Professor, SCOPE$Vellore Institute of Technology, Chennai",
       "Dr. Abdullah Muhamed, Deputy Dean, FSKTM$Universiti Putra Malaysia, Malaysia",
       "Dr. Iskandar Ishak, Deputy Dean, FSKTM$Universiti Putra Malaysia, Malaysia"
     ],
-    "technicalChairs": [
+    "programTechnicalChairs": [
       "Dr. Rama Parvathy L, Associate Professor, SCOPE$Vellore Institute of Technology, Chennai",
       "Dr. Sandhya P, Professor, SCOPE$Vellore Institute of Technology, Chennai"
     ]
@@ -49,7 +49,7 @@
       "Dr. Christopher Columbus C, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Dinakaran M, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Kumar R, Professor$Vellore Institute of Technology, Chennai",
-      "Dr. Nithya Darisini P.S, Professor$Vellore Institute of Technology, Chennai",
+      "Dr. Nithya Darisini P S, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Pradeep Kumar T S, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Renuka Devi S, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Sandhya M, Professor$Vellore Institute of Technology, Chennai",
@@ -60,13 +60,13 @@
     ]
   },
   "organizing": {
-    "localOrganizingCommittee": [
+    "organizingCommittee": [
       "Dr. Rajalakshmi R, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Sakthivel V, Assistant Professor$Vellore Institute of Technology, Chennai",
       "Dr. Swaminathan A, Assistant Professor$Vellore Institute of Technology, Chennai",
-      "Dr. Pradeep KV, Associate Professor$Vellore Institute of Technology, Chennai",
+      "Dr. Pradeep K V, Associate Professor$Vellore Institute of Technology, Chennai",
       "Dr. T V Padmavathy, Associate Professor$Vellore Institute of Technology, Chennai",
-      "Dr. T. Janani, Associate Professor$Vellore Institute of Technology, Chennai",
+      "Dr. T Janani, Associate Professor$Vellore Institute of Technology, Chennai",
       "Dr. Shyamala L, Associate Professor$Vellore Institute of Technology, Chennai",
       "Dr. Thinagaran Perumal, Associate Professor$Universiti Putra Malaysia, Malaysia",
       "Dr. Puteri Suhaiza binti Sulaiman, Associate Professor$Universiti Putra Malaysia, Malaysia",
@@ -74,10 +74,10 @@
       "Dr. Novia Indriaty Admodisastro, Associate Professor$Universiti Putra Malaysia, Malaysia",
       "Dr. Kanniga Devi R, Associate Professor$Vellore Institute of Technology, Chennai",
       "Dr. Maria Anu V, Associate Professor$Vellore Institute of Technology, Chennai",
-      "Dr. Anusha. K, Associate Professor$Vellore Institute of Technology, Chennai",
+      "Dr. Anusha K, Associate Professor$Vellore Institute of Technology, Chennai",
       "Dr. Subbulakshmi T, Professor$Vellore Institute of Technology, Chennai",
       "Dr. Thomas Abraham, Associate Professor$Vellore Institute of Technology, Chennai",
-      "Dr. Prakash.P, Associate Professor$Vellore Institute of Technology, Chennai",
+      "Dr. Prakash P, Associate Professor$Vellore Institute of Technology, Chennai",
       "Dr. Pradeep K, Assistant Professor$Vellore Institute of Technology, Chennai",
       "Dr. Suvidha Rupeshkumar, Assistant Professor$Vellore Institute of Technology, Chennai",
       "Dr. Leninisha S, Associate Professor$Vellore Institute of Technology, Chennai",
