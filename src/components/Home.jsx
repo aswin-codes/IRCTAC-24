@@ -47,12 +47,12 @@ const Home = () => {
                     </div>
                     <div className='mt-2 mx-auto sm:px-4 title'>
                         <p className='text-lg sm:text-2xl text-center text-purple-800 font-semibold'>
-                            7th INTERNATIONAL CONFERENCE ON RECENT TRENDS IN ADVANCED COMPUTING (ICRTAC'24)
+                            7th International Conference on Recent Trends in Advanced Computing (ICRTAC'24)
                         </p>
                     </div>
                     <div className='mt-4 sm:mt-6 subtitle'>
                         <p className='text-center text-base sm:text-xl font-semibold'>
-                            Theme : Automating Sustainability - Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24
+                            Theme: Automating Sustainability - Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24
                         </p>
                     </div>
                     <div className='mt-5 sm:mt-10 organized'>
@@ -60,11 +60,11 @@ const Home = () => {
                     </div>
                     <div className='mt-2 font-semibold text-base sm:text-lg w-5/6 mx-auto text-center logos'>
                         <p className='text-purple-800'>
-                            School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India
+                            School of Computer Science and Engineering (SCOPE), Vellore Institute of Technology, Chennai, India
                         </p>
                         <p className='text-center mt-1'>In Association With</p>
                         <p className='text-mred mt-1'>
-                            Faculty of Computer Science and Information Technology, Universiti Putra Malaysia, Malaysia
+                            Faculty of Computer Science and Information Technology (FSKTM), Universiti Putra Malaysia (UPM), Malaysia
                             <span className='text-black'>,</span>
                         </p>
                         <p className='text-mblue mt-1'>
