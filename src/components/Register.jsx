@@ -12,6 +12,11 @@ const RegistrationFeeTable = () => {
         });
     }, []);
 
+    const handleRedirect = (e, url) => {
+        e.preventDefault();
+        window.open(url);
+    }
+
     return (
         <section id='register' className='bg-purple-100'>
             <div className="max-w-[1440px] mx-auto py-20 px-4">
@@ -67,11 +72,12 @@ const RegistrationFeeTable = () => {
                     <strong>Note:</strong> Registration fee doesn't cover bank charges and includes only participation & presentation to conference.
                 </p>
                 <p className="reveal mt-4 text-xl text-purple-800 italic text-center font-bold sm:max-w-2xl mx-auto">
-                    Attractive rewards will be given for Best Papers 
+                    Attractive rewards will be given for Best Papers
                 </p>
-                <div className="reveal mt-8 text-center">
+                <div className="reveal mt-8 text-left sm:max-w-2xl mx-auto  ">
                     <h3 className="text-xl font-bold text-purple-800">Payment Link</h3>
-                    <p className="mt-2">For Payment (After Acceptance of Article): <a href="#" className="text-blue-600 underline">(Coming soon)</a></p>
+                    <p className="mt-2">For Payment (After Acceptance of Article): <a onClick={(e) => handleRedirect(e, "https://vitchennaievents.com/conf1/")} href="https://vitchennaievents.com/conf1/" className="text-blue-600 underline font-bold">Click Here</a></p>
+                    <p className='text-sm mt-1'><strong>Note : </strong> After linking to payment portal, choose ICRTAC 2024 in the dropdown. Then select your appropriate registration category.</p>
                 </div>
             </div></section>
     );

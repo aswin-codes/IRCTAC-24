@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Submission = () => {
+
+    const handleRedirect = (e, url) => {
+        e.preventDefault();
+        window.open(url);
+    }
     return (
         <section id="submission"
             class="flex justify-center items-center px-16 py-20  bg-purple-100 max-md:px-5"
@@ -15,9 +20,9 @@ const Submission = () => {
                         <div class="self-center font-bold text-3xl text-purple-800">
                             Manuscript Submission
                         </div>
-                        <div class="mt-5 text-xl text-black underline">
+                        <div class="mt-5 text-xl text-black ">
                             <span class="">For manuscript submission : </span>
-                            <span class="underline">(coming soon)</span>
+                            <span class="underline" onClick={(e) => handleRedirect(e, "https://cmt3.research.microsoft.com/ICRTAC2024")}>Click Here</span>
                         </div>
                     </div>
                     <div class="flex flex-col max-md:max-w-full">
