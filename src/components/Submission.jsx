@@ -22,7 +22,7 @@ const Submission = () => {
                         </div>
                         <div class="mt-5 text-xl text-black ">
                             <span class="">For manuscript submission : </span>
-                            <span class="underline" onClick={(e) => handleRedirect(e, "https://cmt3.research.microsoft.com/ICRTAC2024")}>Click Here</span>
+                            <span class="underline transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointer" onClick={(e) => handleRedirect(e, "https://cmt3.research.microsoft.com/ICRTAC2024")}>Click Here</span>
                         </div>
                     </div>
                     <div class="flex flex-col max-md:max-w-full">
@@ -31,11 +31,11 @@ const Submission = () => {
                         </div>
                         <div class="mt-5 text-xl text-black  max-md:max-w-full">
                             <span class="">To download manuscript word template : </span>
-                            <a href='https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734'><span class="underline">Click Here</span></a>
+                            <a href='https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734'><span class="underline transition-all duration-150 ease-in-out hover:text-purple-800">Click Here</span></a>
                         </div>
-                        <div class="mt-5 text-xl text-black  max-md:max-w-full">
+                        <div class="mt-5 text-xl text-black transition-all duration-150 ease-in-out hover:text-purple-800  max-md:max-w-full">
                             <span class="">To download manuscript Latex template :   </span>
-                            <a href='https://www.springer.com/gp/computer-science/lncs/new-latex-templates-available/15634678'><span class="underline">Click Here</span></a>
+                            <a href='https://www.springer.com/gp/computer-science/lncs/new-latex-templates-available/15634678'><span class="underline transition-all duration-150 ease-in-out hover:text-purple-800">Click Here</span></a>
                         </div>
                     </div>
                 </div>

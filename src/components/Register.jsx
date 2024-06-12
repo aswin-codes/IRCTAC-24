@@ -76,7 +76,7 @@ const RegistrationFeeTable = () => {
                 </p>
                 <div className="reveal mt-8 text-left sm:max-w-2xl mx-auto  ">
                     <h3 className="text-xl font-bold text-purple-800">Payment Link</h3>
-                    <p className="mt-2">For Payment (After Acceptance of Article): <a onClick={(e) => handleRedirect(e, "https://vitchennaievents.com/conf1/")} href="https://vitchennaievents.com/conf1/" className="text-blue-600 underline font-bold">Click Here</a></p>
+                    <p className="mt-2">For Payment (After Acceptance of Article): <a onClick={(e) => handleRedirect(e, "https://vitchennaievents.com/conf1/")} href="https://vitchennaievents.com/conf1/" className="transition-all duration-150 ease-in-out hover:text-purple-800 cursor-pointerunderline font-bold">Click Here</a></p>
                     <p className='text-sm mt-1'><strong>Note : </strong> After linking to payment portal, choose ICRTAC 2024 in the dropdown. Then select your appropriate registration category.</p>
                 </div>
             </div></section>
