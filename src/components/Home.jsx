@@ -38,7 +38,7 @@ const Home = () => {
                     <div className='flex flex-row items-center justify-between px-4'>
                         <div className='flex gap-2 items-center calendar'>
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Cal} alt='calendar' />
-                            <p className='text-xs sm:text-lg font-semibold'>14th & 15th November 2024</p>
+                            <p className='text-xs sm:text-lg font-semibold'>14<sup>th</sup> & 15<sup>th</sup> November 2024</p>
                         </div>
                         <div className='flex gap-2 items-center clock'>
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Clo} alt='clock' />
@@ -52,7 +52,7 @@ const Home = () => {
                     </div>
                     <div className='mt-4 sm:mt-6 subtitle'>
                         <p className='text-center text-base sm:text-xl font-semibold'>
-                            Theme: Automating Sustainability - Bridging SDG Goals with Recent Trends in Advanced Computing at ICRTAC'24
+                            Theme: Automating Sustainability - Bridging SDG Goals with Recent Trends in Advanced Computing
                         </p>
                     </div>
                     <div className='mt-5 sm:mt-10 organized'>
