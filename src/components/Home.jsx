@@ -7,6 +7,8 @@ import VITL from '../assets/vitlogo.png';
 import UI from '../assets/ui.png';
 import UPM from '../assets/upm.png';
 import BIS from '../assets/bis.png';
+import SERB from '../assets/serb_logo.png';
+import DST from '../assets/dst_logo.png'
 
 const Home = () => {
     useEffect(() => {
@@ -33,8 +35,15 @@ const Home = () => {
 
     return (
         <div className=''>
-            <div className='px-6 sm:px-10 lg:px-20 py-10 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto mb-16 '>
+            <div className='px-6 sm:px-10 lg:px-20 py-4 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto mb-16 '>
                 <div className='flex-1 flex-col flex justify-center min-w-full sm:min-w-[450px] mt-5'>
+                    <div className='flex flex-row justify-center items-center gap-2'>
+                        <img src={SERB} className='h-14 logos'/>
+                        <img src={DST} className='h-14 logos'/>
+                    </div>
+                    <div className='flex justify-center mb-5 text-purple-800 font-semibold logos'>
+                        DST - SERB, New Delhi Sponsored
+                    </div>
                     <div className='flex flex-row items-center justify-between px-4'>
                         <div className='flex gap-2 items-center calendar'>
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Cal} alt='calendar' />
