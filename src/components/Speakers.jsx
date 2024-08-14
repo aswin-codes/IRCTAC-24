@@ -10,7 +10,7 @@ const SpeakerCard = ({ image, name, details }) => {
             <img src={image} alt={name} className="w-24 h-24 rounded-full object-cover" />
             <div className="text-center md:text-left">
                 <h3 className="text-xl font-semibold">{name}</h3>
-                <p className="text-sm text-gray-500">{details}</p>
+                <p className="text-sm">{details}</p>
             </div>
         </div>
     );
