@@ -37,13 +37,7 @@ const Home = () => {
         <div className=''>
             <div className='px-6 sm:px-10 lg:px-20 py-4 sm:py-0 flex flex-wrap gap-5 w-full max-w-[1440px] mx-auto mb-16 '>
                 <div className='flex-1 flex-col flex justify-center min-w-full sm:min-w-[450px] mt-5'>
-                    <div className='flex flex-row justify-center items-center gap-2'>
-                        <img src={SERB} className='h-14 logos'/>
-                        <img src={DST} className='h-14 logos'/>
-                    </div>
-                    <div className='flex justify-center mb-5 text-purple-800 font-semibold logos'>
-                        DST - SERB, New Delhi Sponsored
-                    </div>
+                    
                     <div className='flex flex-row items-center justify-between px-4'>
                         <div className='flex gap-2 items-center calendar'>
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Cal} alt='calendar' />
@@ -53,6 +47,13 @@ const Home = () => {
                             <img className='w-6 h-6 sm:w-8 sm:h-8' src={Clo} alt='clock' />
                             <p className='text-xs sm:text-lg font-semibold'>8:00 AM</p>
                         </div>
+                    </div>
+                    <div className='flex flex-row justify-center items-center gap-2'>
+                        <img src={SERB} className='h-20 logos'/>
+                        <img src={DST} className='h-20 logos'/>
+                    </div>
+                    <div className='flex justify-center mb-5 text-purple-800 font-semibold logos'>
+                        DST - SERB, New Delhi Sponsored
                     </div>
                     <div className='mt-2 mx-auto sm:px-4 title'>
                         <p className='text-lg sm:text-2xl text-center text-purple-800 font-semibold'>
