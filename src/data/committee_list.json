@@ -99,7 +99,7 @@
     ]
   },
   "advisory": {
-    "internationalCommittee": [
+    "internationalAdvisoryCommittee": [
       "Dr. Chockalingam Aravind Vaithilingam$Taylor's University, Malaysia",
       "Dr. Subramaniam Ganesan$Oakland University, Michigan",
       "Dr. Xavier Fernando$Toronto Metropolitan University, Canada",
@@ -154,7 +154,7 @@
       "Dr. David Asirvadam$Taylor's University, Malaysia",
       "Dr. Keshav Sood$Deakin University, Australia"
     ],
-    "nationalCommittee": [
+    "nationalAdvisoryCommittee": [
       "Dr. Porkumaran$Chairman-IEEE Madras Section & Principal-Sri Sairam Engineering College",
       "Dr. P. Sakthivel$Vice Chairman, IEEE Madras Section",
       "Dr. S. Joesph Gladwin$Vice Chairman-Industry, IEEE Madras Section",
