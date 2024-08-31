@@ -98,10 +98,8 @@
       "Dr. Prassanna J, Professor$Vellore Institute of Technology, Chennai"
     ]
   },
-  {
   "advisory": {
-     {
-  "internationalAdvisoryCommittee": [
+  "InternationalAdvisoryCommittee": [
     "Dr. Chockalingam Aravind Vaithilingam, Taylor's University, Malaysia",
     "Dr. Subramaniam Ganesan, Oakland University, Michigan",
     "Dr. Xavier Fernando, Toronto Metropolitan University, Canada",
@@ -160,11 +158,8 @@
     "Prof. Michael Losavio, University of Louisville, KY, USA",
     "Prof. Jemal H. Abawajy, Deakin University, Australia",
     "Dr. Keshav Sood, Deakin University, Australia"
-  ]
-},
+  ],
   
-
-
     "nationalAdvisoryCommittee": [
       "Dr. Porkumaran$Chairman-IEEE Madras Section & Principal-Sri Sairam Engineering College",
       "Dr. P. Sakthivel$Vice Chairman, IEEE Madras Section",
