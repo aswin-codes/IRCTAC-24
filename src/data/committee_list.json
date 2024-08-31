@@ -100,7 +100,7 @@
   },
   {
   "advisory": {
-    {
+     {
   "internationalAdvisoryCommittee": [
     "Dr. Chockalingam Aravind Vaithilingam, Taylor's University, Malaysia",
     "Dr. Subramaniam Ganesan, Oakland University, Michigan",
@@ -162,6 +162,7 @@
     "Dr. Keshav Sood, Deakin University, Australia"
   ]
 },
+  
 
 
     "nationalAdvisoryCommittee": [
