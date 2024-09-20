@@ -25,8 +25,8 @@ const ImportantDates = () => {
                                 <td className='w-56 text-right font-bold whitespace-nowrap'>
                                     <p className='mr-2 sm:mr-10'>
                                         <s className='text-red-500'>1<sup>st</sup> September 2024</s>
-                                        <s className='text-red-500'>10<sup>st</sup> September 2024</s><br />
-                                        20<sup>th</sup> September 2024 (Extended)
+                                        <s className='text-red-500'>20<sup>st</sup> September 2024</s><br />
+                                        25<sup>th</sup> September 2024 <span className='text-red-500'>(Firm Extended)</span>
                                     </p>
                                 </td>
                                 <td className='w-8'>
@@ -40,7 +40,7 @@ const ImportantDates = () => {
                                 <td className='w-56 text-right font-bold whitespace-nowrap'>
                                     <p className='mr-2 sm:mr-10'>
                                         <s className='text-red-500'>30<sup>th</sup> September 2024</s><br />
-                                        7<sup>th</sup> October 2024 (Extended)
+                                        10<sup>th</sup> October 2024 (Extended)
                                     </p>
                                 </td>
                                 <td className='w-8'>
