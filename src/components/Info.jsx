@@ -15,13 +15,22 @@ const Info = () => {
     sr.reveal('.info-item', { interval: 200 });
   }, []);
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = `./author_instructions.doc`; // Path to the PDF file
+    link.download = 'author_instructions.doc'; // Name for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
   return (
     <div className='px-5 sm:px-8 lg:px-20 py-5 sm:py-10 w-full max-w-[1440px] mx-auto'>
       <h1 className='text-xl sm:text-3xl font-semibold text-purple-800 info-title'>Instructions & Info</h1>
       <div className='mt-16 grid grid-cols-1 md:grid-cols-2 gap-10'>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Instruction to Authors</h1>
-          <p>For Instructions: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
+          <p>For Instructions: <span onClick={()=> handleDownload()} className='underline cursor-pointer'>Click here</span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Online Presentation Track Details</h1>
