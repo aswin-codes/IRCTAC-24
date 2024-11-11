@@ -110,7 +110,6 @@ const Speakers = () => {
               details={
                 <p>
                   Scientist-D/Joint Director,
-                  <br />Bureau of Indian Standards,
                   <br />Coimbatore Branch Office,
                   <br />Bureau of Indian Standards
                   <br />
@@ -187,7 +186,7 @@ const Speakers = () => {
                   Kerala
                   <br />
                   <br />
-                  <b>Title: </b> Exploring Multi-Task Learning and Multi-View Learning:  Strategies  <br /> for Enhanced ModelPerformance
+                  <b>Title: </b> Exploring Multi-Task Learning and Multi-View Learning:  Strategies  <br /> for Enhanced Model Performance
 
                 </p>
               }
