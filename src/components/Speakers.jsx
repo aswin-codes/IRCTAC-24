@@ -76,7 +76,7 @@ const Speakers = () => {
                 </p>
               }
             />
-            
+
             <SpeakerCard
               image={I1}
               name={"Prof. Dato' Dr. Shamala K. Subramaniam, "}
@@ -111,11 +111,11 @@ const Speakers = () => {
                 <p>
                   Scientist-D/Joint Director,
                   <br />Bureau of Indian Standards,
-                  <br />Coimbatore Branch Office, 
-                  <br/>Bureau of Indian Standards 
+                  <br />Coimbatore Branch Office,
+                  <br />Bureau of Indian Standards
                   <br />
                   <br />
-                  <b>Title:</b> Exploring Research and Development Opportunities in the<br/> Standards Development Activities of the Bureau of Indian Standards (BIS)
+                  <b>Title:</b> Exploring Research and Development Opportunities in the<br /> Standards Development Activities of the Bureau of Indian Standards (BIS)
                 </p>
               }
             />
@@ -187,9 +187,8 @@ const Speakers = () => {
                   Kerala
                   <br />
                   <br />
-                  <b>Title: </b>Brain-Computer Interfaces and Beyond: Machine
-                  Learning Applications
-                  <br /> for Sustainable Development
+                  <b>Title: </b> Exploring Multi-Task Learning and Multi-View Learning:  Strategies  <br /> for Enhanced ModelPerformance
+
                 </p>
               }
             />
