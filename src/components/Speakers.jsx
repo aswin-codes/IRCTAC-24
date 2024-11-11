@@ -43,7 +43,7 @@ const Speakers = () => {
             <SpeakerCard
               image={I9}
               special={"Inaugural Chief Guest"}
-              name={"Mr. Muralidharan V M ,"}
+              name={"Mr. Muralidharan V M,"}
               details={
                 <p>
                   Chairman, Ethiraj College for Women,
@@ -52,9 +52,23 @@ const Speakers = () => {
               }
             />
             <SpeakerCard
+              image={I11}
+              special={"Guest of Honor  & Keynote Speaker"}
+              name={"Mr. Jayachandran K R,"}
+              details={
+                <p>
+                  Senior Vice-President
+                  <br />C5i AI Labs
+                  <br />
+                  <br />
+                  <b>Title:</b> The Dawn of Agentic AI: Shaping Tomorrow's Automation
+                </p>
+              }
+            />
+            <SpeakerCard
               image={I10}
               special={"Valedictory Chief Guest"}
-              name={"Mrs. Gayatri Balakrishnan,"}
+              name={"Ms. Gayatri Balakrishnan,"}
               details={
                 <p>
                   Director, Software Engineering,
@@ -62,19 +76,7 @@ const Speakers = () => {
                 </p>
               }
             />
-            <SpeakerCard
-              image={I11}
-              special={"Guest of Honor"}
-              name={"Mr. Jayachandran K R,"}
-              details={
-                <p>
-                  Senior Vice-President
-                  <br />C5i AI Labs
-                  <br />
-                  <b>Title:</b> The Dawn of Agentic AI: Shaping Tomorrow’s Automation
-                </p>
-              }
-            />
+            
             <SpeakerCard
               image={I1}
               name={"Prof. Dato' Dr. Shamala K. Subramaniam, "}
@@ -85,19 +87,20 @@ const Speakers = () => {
                   <br /> Faculty of Computer Science and Information Technology,
                   <br /> Universiti Putra Malaysia, Malaysia{" "}
                   <br />
+                  <br />
                   <b>Title:</b> The Art and Science of Sculpturing Intelligence into the Ecosystem of Network Tiers
                 </p>
               }
             />
             <SpeakerCard
               image={I5}
-              name={"Mrs. Bhavani G, "}
+              name={"Ms. Bhavani G, "}
               details={
                 <p>
                   Scientist-F/Senior Director & Head
                   <br /> Chennai Branch Office
                   <br />
-                  BIS{" "}
+                  Bureau of Indian Standards{" "}
                 </p>
               }
             />
@@ -107,7 +110,10 @@ const Speakers = () => {
               details={
                 <p>
                   Scientist-D/Joint Director,
-                  <br />BIS, Coimbatore
+                  <br />Bureau of Indian Standards,
+                  <br />Coimbatore Branch Office, 
+                  <br/>Bureau of Indian Standards 
+                  <br />
                   <br />
                   <b>Title:</b> Exploring Research and Development Opportunities in the<br/> Standards Development Activities of the Bureau of Indian Standards (BIS)
                 </p>
@@ -115,7 +121,7 @@ const Speakers = () => {
             />
             <SpeakerCard
               image={I4}
-              name={"Dr. Sudarsun S"}
+              name={"Dr. Sudarsun S,"}
               details={
                 <p>
                   Chief Scientific Officer and Co-Founder
@@ -144,6 +150,8 @@ const Speakers = () => {
                   <br />
                   NVIDIA DLI Instructor
                   <br />
+                  Tech Leader, AI &amp; IoT Innovator, Intel
+                  <br />
                   <br />
                   <b>Title:</b> The AI PC - let's unleash the complete AI
                   Potential
@@ -152,17 +160,20 @@ const Speakers = () => {
             />
             <SpeakerCard
               image={I7}
-              name={"Anisha Udayakumar, "}
+              name={"Ms. Anisha Udayakumar, "}
               details={
                 <p>
                   AI Software Evangelist at Intel
-
+                  <br />
+                  <br />
+                  <b>Title:</b> The AI PC - let's unleash the complete AI
+                  Potential
                 </p>
               }
             />
             <SpeakerCard
               image={I3}
-              name={"Dr. Sumitra.S "}
+              name={"Dr. Sumitra S, "}
               details={
                 <p>
                   Associate Professor
@@ -184,11 +195,12 @@ const Speakers = () => {
             />
             <SpeakerCard
               image={I8}
-              name={"Mr. Abhijith Sreenivas, "}
+              name={"Mr. Abhijit Sreenivas, "}
               details={
                 <p>
                   Senior Program Manager - UiPath Academic Alliance
                   <br />Program | Asia Pacific & Japan
+                  <br />
                   <br />
                   <b>Title: </b>Empowering the Future: Building a Workforce <br />Ready for the Age of Automation
                 </p>
