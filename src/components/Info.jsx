@@ -22,7 +22,16 @@ const Info = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-};
+  };
+
+  const handleFileDownload = (name) => {
+    const link = document.createElement('a');
+    link.href = `./${name}`;
+    link.download = `${name}`
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link);
+  }
 
   return (
     <div className='px-5 sm:px-8 lg:px-20 py-5 sm:py-10 w-full max-w-[1440px] mx-auto'>
@@ -34,16 +43,16 @@ const Info = () => {
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Online Presentation Track Details</h1>
-          <p>Day 1 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
-          <p>Day 2 Detailed Schedule: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
+          <p>Day 1 Detailed Schedule: <span onClick={() => handleFileDownload("Day_1_Schedule.pdf")} className='underline cursor-pointer'>Click here</span></p>
+          <p>Day 2 Detailed Schedule: <span onClick={() => handleFileDownload("Day_2_Schedule.pdf")} className='underline cursor-pointer'>Click here</span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>ICRTAC'24 Conference Schedule</h1>
-          <p>For complete schedule details: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
+          <p>For complete schedule details: <span onClick={()=> handleFileDownload("ICRTAC_2024_Schedule.pdf")} className='underline cursor-pointer'>Click here</span></p>
         </div>
         <div className='flex flex-col items-center text-center info-item'>
           <h1 className='text-morange text-lg sm:text-2xl font-semibold'>Offline Presentation Track Details</h1>
-          <p>For Date, Time and Venue details: <span className='underline cursor-pointer'><a href='#'>(Coming soon)</a></span></p>
+          <p>For Date, Time and Venue details: <span onClick={() => handleFileDownload("Offline_Presentation_Schedule.pdf")} className='underline cursor-pointer'>Click here</span></p>
         </div>
       </div>
     </div>
